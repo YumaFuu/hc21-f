@@ -38,16 +38,12 @@ func init() {
 }
 
 func main() {
-	err := twitter.Init()
-	if err != nil {
+	if err := twitter.Init(); err != nil {
 		log.Fatal(err)
 	}
+
 	t := twitter.Twitter
-
-	t.GetUserID(twitterAccounts)
-
-	// defer resp.Body.Close()
-
-	// ioutil.ReadAll(resp.Body)
-	// fmt.Println(string(byteArray))
+	if err := t.GetUserID(twitterAccounts); err != nil {
+		log.Fatal(err)
+	}
 }

@@ -63,18 +63,18 @@ func (t *twitter) call(endpoint string, query map[string]string) error {
 
 	b, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
 	fmt.Println(string(b))
 	return nil
 }
 
-func (t *twitter) GetUserID(usernames []string) {
+func (t *twitter) GetUserID(usernames []string) error {
 	s := strings.Join(usernames, ",")
 
 	q := map[string]string{
 		"usernames": s,
 	}
-	t.call("users/by", q)
+	return t.call("users/by", q)
 }
