@@ -3,31 +3,11 @@ package main
 import (
 	"log"
 
-	"hc21f/twitter"
+	"hc21f/pkg/database"
+	"hc21f/pkg/twitter"
+	"hc21f/runner"
 
 	"github.com/joho/godotenv"
-)
-
-var (
-	// メンバー
-	twitterAccounts = []string{
-		// QuizKnock/クイズノック
-		"QuizKnock",
-		// 伊沢拓司
-		"tax_i_",
-		// ふくらP（QuizKnockクイズノック）
-		"fukura_p",
-		// こうちゃん
-		"Miracle_Fusion",
-		// 山本 祥彰
-		"quiz_yamamoto",
-		// 河村・拓哉
-		"kawamura_domo",
-		// 須貝 駿貴
-		"Sugai_Shunki",
-		// 鶴崎 修功
-		"Tsurusaki_H",
-	}
 )
 
 func init() {
@@ -42,8 +22,12 @@ func main() {
 		log.Fatal(err)
 	}
 
-	t := twitter.Twitter
-	if err := t.GetUserID(twitterAccounts); err != nil {
+	if err := database.Init(); err != nil {
 		log.Fatal(err)
 	}
+
+	t := twitter.Get()
+	db := database.Get()
+
+	runner.Run(t, db)
 }
