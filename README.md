@@ -1,6 +1,6 @@
 # hc21-f
 
-## run job
+## Run Job
 ```bash
 $ go run cmd/job/main.go (memberid|followers|followings)
 ```
