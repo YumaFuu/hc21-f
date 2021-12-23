@@ -2,14 +2,7 @@
 
 ## run job
 ```bash
-# get user_id
-$ go run job/member/main.go
-
-# get followers
-$ go run job/followers/main.go
-
-# get follower's followings
-$ go run job/follwings/main.go
+$ go run cmd/job/main.go (memberid|followers|followings)
 ```
 
 
