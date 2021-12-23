@@ -28,11 +28,10 @@ func Run() {
 
 	r, err := job.New(t, db, arg)
 	if err != nil {
-		log.Fatalf("ERROR: %s", err)
+		log.Fatalf("[ ERROR ]: job.New() %s", err)
 	}
 
 	if err := r.Do(); err != nil {
 		log.Fatalf("[ ERROR ]: %s", err)
 	}
-
 }

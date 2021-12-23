@@ -13,7 +13,7 @@ var jobTypes = []string{
 	"followers",
 }
 
-type jobType = string
+type jobType string
 
 func NewJobType(s string) (jobType, error) {
 	var b = false
@@ -25,7 +25,7 @@ func NewJobType(s string) (jobType, error) {
 	}
 
 	if !b {
-		return "", errors.New(fmt.Sprintf("Invalid JobType %s", s))
+		return "", errors.New(fmt.Sprintf("Invalid JobType: %s", s))
 	}
 
 	return jobType(s), nil
@@ -50,7 +50,7 @@ func New(t twitter.Twitter, db *sql.DB, s string) (Job, error) {
 func (j Job) Do() error {
 	var err error
 	switch j.jobType {
-	case "memberid":
+	case "members":
 		err = j.FillMemberID()
 	case "followings":
 		err = j.SearchFollowings()

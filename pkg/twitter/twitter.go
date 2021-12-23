@@ -1,9 +1,9 @@
 package twitter
 
 import (
+	"errors"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"net/url"
 	"os"
@@ -28,7 +28,7 @@ func Get() Twitter {
 func Init() error {
 	t := os.Getenv("TWITTER_BEARER_TOKEN")
 	if t == "" {
-		log.Fatal("twitter token is not set")
+		return errors.New("twitter token is not set to ENV")
 	}
 
 	twitter.token = t

@@ -2,7 +2,7 @@
 
 ## Run Job
 ```bash
-$ go run cmd/job/main.go (memberid|followers|followings)
+$ go run cmd/job/main.go (members|followers|followings)
 ```
 
 
@@ -11,6 +11,6 @@ $ go run cmd/job/main.go (memberid|followers|followings)
 members -< followers -< followings
 ```
 
-## Download sqlite file
+## sqlite file
 
-go [here](https://github.com/YumaFuu/hc21-f/blob/master/hc21f.db) and click `Download`
+[here](https://github.com/YumaFuu/hc21-f/raw/master/hc21f.db) to download
