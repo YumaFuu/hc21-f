@@ -11,7 +11,7 @@ import (
 
 var (
 	ResultCsvHeader    = []string{"ID"}
-	ResultCsvFilePath  = "./data/result.csv"
+	ResultCsvFilePath  = "./data/row_result.csv"
 	MinimunFollowCount = 5
 )
 
