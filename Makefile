@@ -9,4 +9,3 @@ sort:
 	cat data/row_result.csv | \
 		grep -v ",,," | \
 		awk 'NR==1;NR>1{print $0|"sort -k1nr -t,"}' > data/result.csv
-
