@@ -5,12 +5,6 @@
 $ go run cmd/job/main.go (members|followers|friends)
 ```
 
+## Result file
 
-## DB Relations
-```
-members -< followers -< followings
-```
-
-## sqlite file
-
-[here](https://github.com/YumaFuu/hc21-f/raw/master/hc21f.db) to download
+[here](https://github.com/YumaFuu/hc21-f/master/data/result.csv)

@@ -65,7 +65,6 @@ func (job *Job) getFriends(uid string) error {
 		return nil
 	}
 
-	// time.Sleep(time.Second * 3)
 	f, err := os.OpenFile(FriendsCsvFilePath, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
 	if err != nil {
 		return err
