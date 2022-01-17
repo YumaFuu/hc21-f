@@ -41,7 +41,6 @@ func (job *Job) SearchFriends() error {
 		}
 
 		id := row[0]
-		fmt.Println("[START]")
 
 		err = job.getFriends(id)
 		if err != nil {
