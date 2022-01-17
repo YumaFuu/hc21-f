@@ -10,8 +10,9 @@ import (
 )
 
 var (
-	ResultCsvHeader   = []string{"ID"}
-	ResultCsvFilePath = "./data/result.csv"
+	ResultCsvHeader    = []string{"ID"}
+	ResultCsvFilePath  = "./data/result.csv"
+	MinimunFollowCount = 8
 )
 
 func (job *Job) GetResult() error {
@@ -44,7 +45,7 @@ func (job *Job) GetResult() error {
 	)
 
 	for k, v := range result {
-		if v > 10 {
+		if v > MinimunFollowCount {
 
 			b, err := ioutil.ReadFile(ResultCsvFilePath)
 			if err != nil {
