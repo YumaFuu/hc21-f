@@ -28,7 +28,10 @@ func (job *Job) SearchFriends() error {
 		return err
 	}
 
+	var i int
 	for {
+		fmt.Printf("%d ", i)
+		i++
 		row, err := r.Read()
 		if err == io.EOF {
 			break
@@ -78,7 +81,6 @@ func (job *Job) getFriends(uid string) error {
 			_, err := f.Write([]byte(str))
 
 			if err != nil {
-				fmt.Println("eeeee", err)
 				return err
 			}
 		}
@@ -90,12 +92,10 @@ func (job *Job) getFriends(uid string) error {
 	}
 
 	for _, id := range ids {
-		fmt.Println(id)
 		str := fmt.Sprintf("%s,%d\n", uid, id)
 		_, err := f.Write([]byte(str))
 
 		if err != nil {
-			fmt.Println("dddd", err)
 			return err
 		}
 
