@@ -8,8 +8,8 @@ import (
 )
 
 var jobTypes = []string{
-	"memberid",
-	"followings",
+	"members",
+	"friends",
 	"followers",
 }
 
@@ -52,8 +52,8 @@ func (j Job) Do() error {
 	switch j.jobType {
 	case "members":
 		err = j.FillMemberID()
-	case "followings":
-		err = j.SearchFollowings()
+	case "friends":
+		err = j.SearchFriends()
 	case "followers":
 		err = j.SearchFollowers()
 	}

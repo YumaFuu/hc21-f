@@ -2,7 +2,7 @@
 
 ## Run Job
 ```bash
-$ go run cmd/job/main.go (members|followers|followings)
+$ go run cmd/job/main.go (members|followers|friends)
 ```
 
 

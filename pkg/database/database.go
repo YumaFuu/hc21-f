@@ -30,30 +30,11 @@ func createTables() error {
 	_, err := db.Exec(
 		`
     CREATE TABLE IF NOT EXISTS
-      members
+      friends
     (
       id INTEGER PRIMARY KEY,
-      uid VARCHAR(255),
-      username VARCHAR(255) NOT NULL
-    );
-
-    CREATE TABLE IF NOT EXISTS
-      users
-    (
-      id INTEGER PRIMARY KEY,
-      uid VARCHAR(255),
-      following_member_id INTEGER NOT NULL,
-      username VARCHAR(255) NOT NULL
-    );
-
-    CREATE TABLE IF NOT EXISTS
-      user_followings
-    (
-      id INTEGER PRIMARY KEY,
-      uid VARCHAR(255),
-      user_id INTEGER NOT NULL,
-      username VARCHAR(255) NOT NULL,
-      followed_count INTEGER NOT NULL DEFAULT 0
+      uid INTENTGER NOT NULL,
+      user_id INTEGER NOT NULL
     );
     `,
 	)

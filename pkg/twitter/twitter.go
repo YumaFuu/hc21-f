@@ -8,11 +8,10 @@ import (
 	"net/url"
 	"os"
 	"path"
-	"strings"
 )
 
 const (
-	APIBaseURL = "https://api.twitter.com/2"
+	APIBaseURL = "https://api.twitter.com"
 )
 
 type Twitter struct {
@@ -36,20 +35,11 @@ func Init() error {
 	return nil
 }
 
-func (t *Twitter) GetUserIDByUsernames(usernames []string) error {
-	s := strings.Join(usernames, ",")
-
-	q := map[string]string{
-		"usernames": s,
-	}
-	return t.call("users/by", q)
-}
-
-func (t *Twitter) call(endpoint string, query map[string]string) error {
+func (t *Twitter) call(endpoint string, query map[string]string) (string, error) {
 	u, err := url.Parse(APIBaseURL)
 
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	u.Path = path.Join(u.Path, endpoint)
@@ -61,7 +51,7 @@ func (t *Twitter) call(endpoint string, query map[string]string) error {
 
 	req, err := http.NewRequest("GET", u.String(), nil)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	req.Header.Set(
@@ -72,16 +62,15 @@ func (t *Twitter) call(endpoint string, query map[string]string) error {
 	c := &http.Client{}
 	resp, err := c.Do(req)
 	if err != nil {
-		return err
+		return "", err
 	}
 
 	defer resp.Body.Close()
 
 	b, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return err
+		return "", err
 	}
 
-	fmt.Println(string(b))
-	return nil
+	return string(b), nil
 }

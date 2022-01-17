@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"hc21f/pkg/runner"
 
@@ -14,5 +15,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	runner.Run()
+	runner.Run(os.Args)
 }
