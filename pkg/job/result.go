@@ -38,38 +38,95 @@ func (job *Job) GetResult() error {
 		result[id] += 1
 	}
 
-	file, err := os.OpenFile(
+	_, err = os.OpenFile(
 		ResultCsvFilePath,
 		os.O_APPEND|os.O_WRONLY,
 		os.ModeAppend,
 	)
+	if err != nil {
+		return err
+	}
 
+	var list [][]string
 	for k, v := range result {
 		if v > MinimunFollowCount {
 			b, err := ioutil.ReadFile(ResultCsvFilePath)
 			if err != nil {
 				return err
 			}
+
+			var id, name, username string
 			hasID := strings.Contains(string(b), k)
 			if hasID {
 				fmt.Println(k, "hasID")
-				continue
+				r, err := findRecord(k)
+				if err != nil {
+					return err
+				}
+				if len(r) < 2 {
+					continue
+				}
+
+				id = r[1]
+				name = r[2]
+				username = r[3]
+			} else {
+				u, err := job.twitter.GetUserByID(k)
+				if err != nil {
+					return err
+				}
+				id = u.ID
+				name = u.Name
+				username = u.Username
 			}
 
-			u, err := job.twitter.GetUserByID(k)
-			if err != nil {
-				return err
+			row := []string{
+				fmt.Sprintf("%d", v),
+				id,
+				name,
+				fmt.Sprintf("https://twitter.com/%s", username),
 			}
 
-			str := fmt.Sprintf(
-				"%d,%s,%s,https://twitter.com/%s\n",
-				v, u.ID, u.Name, u.Username,
-			)
-			_, err = file.Write([]byte(str))
+			list = append(list, row)
 			if err != nil {
 				return err
 			}
 		}
 	}
+
+	f, err = os.Create(ResultCsvFilePath)
+	if err != nil {
+		return err
+	}
+
+	w := csv.NewWriter(f)
+	w.WriteAll(list)
+
+	w.Flush()
 	return nil
+}
+
+func findRecord(id string) ([]string, error) {
+	f, err := os.Open(ResultCsvFilePath)
+	if err != nil {
+		return []string{}, err
+	}
+
+	r := csv.NewReader(f)
+
+	for {
+		record, err := r.Read()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			return []string{}, err
+		}
+
+		if record[1] == id {
+			return record, nil
+		}
+	}
+
+	return []string{}, nil
 }
