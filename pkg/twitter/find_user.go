@@ -2,6 +2,7 @@ package twitter
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"strings"
 	"time"
@@ -12,7 +13,8 @@ type (
 		Data []User `json:"data"`
 	}
 	UserResponse struct {
-		Data User `json:"data"`
+		Data  User   `json:"data"`
+		Title string `json:"title"`
 	}
 	User struct {
 		ID          string `json:"id"`
@@ -20,6 +22,10 @@ type (
 		Username    string `json:"username"`
 		Description string `json:"description"`
 	}
+)
+
+var (
+	TooManyRequestError = errors.New("too many request")
 )
 
 func (t *Twitter) GetUserIDByUsernames(usernames []string) ([]User, error) {
@@ -48,7 +54,7 @@ func (t *Twitter) GetUserByID(id string) (User, error) {
 		"user.fields": "description",
 	}
 
-	time.Sleep(time.Second * 2)
+	time.Sleep(time.Second * 1)
 
 	r, err := t.call(fmt.Sprintf("2/users/%s", id), q)
 	if err != nil {
@@ -58,6 +64,10 @@ func (t *Twitter) GetUserByID(id string) (User, error) {
 
 	u := UserResponse{}
 	err = json.Unmarshal([]byte(r), &u)
+
+	if u.Title != "" {
+		return User{}, TooManyRequestError
+	}
 
 	if err != nil {
 		return User{}, err

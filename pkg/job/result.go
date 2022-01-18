@@ -51,6 +51,10 @@ func (job *Job) GetResult() error {
 
 	var list [][]string
 	for k, v := range result {
+		if k == "UNAUTHORIZED" {
+			continue
+		}
+
 		if v > MinimunFollowCount {
 			b, err := ioutil.ReadFile(ResultCsvFilePath)
 			if err != nil {
@@ -59,9 +63,12 @@ func (job *Job) GetResult() error {
 
 			var id, name, url, desc string
 			hasID := strings.Contains(string(b), k)
+			hasID = !strings.HasSuffix(k, "03")
+
+			r, err := findRecord(k)
+
 			if hasID {
-				fmt.Println(k, "hasID")
-				r, err := findRecord(k)
+				// fmt.Println(k, "hasID")
 				if err != nil {
 					return err
 				}
@@ -75,13 +82,26 @@ func (job *Job) GetResult() error {
 				desc = r[4]
 			} else {
 				u, err := job.twitter.GetUserByID(k)
+
 				if err != nil {
-					return err
+					r, err := findRecord(k)
+					if err != nil {
+						return err
+					}
+					if len(r) < 2 {
+						continue
+					}
+
+					id = r[1]
+					name = r[2]
+					url = r[3]
+					desc = r[4]
+				} else {
+					id = u.ID
+					name = u.Name
+					url = fmt.Sprintf("https://twitter.com/%s", u.Username)
+					desc = u.Description
 				}
-				id = u.ID
-				name = u.Name
-				url = fmt.Sprintf("https://twitter.com/%s", u.Username)
-				desc = u.Description
 			}
 
 			row := []string{
