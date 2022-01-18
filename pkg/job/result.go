@@ -6,12 +6,14 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
+	"sort"
+	"strconv"
 	"strings"
 )
 
 var (
 	ResultCsvHeader    = []string{"Count", "ID", "Name", "URL", "Description"}
-	ResultCsvFilePath  = "./data/row_result.csv"
+	ResultCsvFilePath  = "./data/result.csv"
 	MinimunFollowCount = 5
 )
 
@@ -48,7 +50,6 @@ func (job *Job) GetResult() error {
 	}
 
 	var list [][]string
-	list = append(list, ResultCsvHeader)
 	for k, v := range result {
 		if v > MinimunFollowCount {
 			b, err := ioutil.ReadFile(ResultCsvFilePath)
@@ -97,7 +98,13 @@ func (job *Job) GetResult() error {
 			}
 		}
 	}
+	sort.Slice(list, func(i, j int) bool {
+		a, _ := strconv.Atoi(list[i][0])
+		b, _ := strconv.Atoi(list[j][0])
+		return a > b
+	})
 
+	list, list[0] = append(list[:1], list[0:]...), ResultCsvHeader
 	f, err = os.Create(ResultCsvFilePath)
 	if err != nil {
 		return err
