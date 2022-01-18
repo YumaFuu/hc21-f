@@ -1,458 +1,591 @@
-Count,ID,Username,URL
-129,778927219422797824,QuizKnock/クイズノック,https://twitter.com/QuizKnock
-72,874501931758047232,ふっくらポリエステル（QuizKnockクイズノック）,https://twitter.com/fukura_p
-71,1257180002,伊沢拓司,https://twitter.com/tax_i_
-66,780770015121281024,河村・拓哉,https://twitter.com/kawamura_domo
-63,991675491324084224,山本 祥彰,https://twitter.com/quiz_yamamoto
-62,958943678952648704,須貝 駿貴,https://twitter.com/Sugai_Shunki
-60,732924494,こうちゃん,https://twitter.com/Miracle_Fusion
-52,1212690333462458369,乾,https://twitter.com/QK_inui
-49,1111604531039596544,山上大喜,https://twitter.com/yamagamiQuiz
-46,1121007086635106304,林輝幸,https://twitter.com/jusco_hayashi
-46,791261566058369024,鶴崎 修功,https://twitter.com/Tsurusaki_H
-26,130447415,HIKAKIN😎ヒカキン 【YouTuber】,https://twitter.com/hikakin
-22,1420643716138631171,QuizKnockと学ぼう【公式】,https://twitter.com/QuizKnock_manab
-21,1351887629894094851,QuizKnock編集部,https://twitter.com/QuizKnock_Web
-20,2927187427,はなお,https://twitter.com/hanao87_0
-20,795985304876249088,松丸 亮吾 🍥,https://twitter.com/ryogomatsumaru
-18,137857547,前澤友作┃地球に戻りました,https://twitter.com/yousuck2020
-15,307902310,任天堂株式会社,https://twitter.com/Nintendo
-14,1158668053183266816,プロジェクトセカイ カラフルステージ！ feat. 初音ミク【プロセカ】,https://twitter.com/pj_sekai
-14,1164789009001766912,QuizKnock Games/クイズノックゲームズ【公式】,https://twitter.com/QuizKnockGames
-14,2656582075,少年ジャンプ編集部,https://twitter.com/jump_henshubu
-14,552700119,はじめしゃちょー(hajime),https://twitter.com/hajimesyacho
-13,760428449869598720,東大王【次回👉🏻2月2日(水)2時間SP🐱】,https://twitter.com/toudaiou_tbs
-12,104388107,河野太郎,https://twitter.com/konotarogomame
-12,1144142348873392129,黛 灰(まゆずみ かい)@にじさんじ,https://twitter.com/mayuzumi_X
-12,129471863,キヨ,https://twitter.com/kiyo_saiore
-12,155207733,花江 夏樹,https://twitter.com/hanae0626
-12,2582637362,堀越耕平,https://twitter.com/horikoshiko
-12,2888006497,Splatoon（スプラトゥーン）,https://twitter.com/SplatoonJP
-12,58794150,米津玄師　ハチ,https://twitter.com/hachi_08
-12,885935041842249728,やまもり / QuizKnock,https://twitter.com/ayac__
-12,950967576980422657,にじさんじ公式🌈🕒,https://twitter.com/nijisanji_app
-12,965760241169088512,葛葉,https://twitter.com/Vamp_Kuzu
-11,1002342365695078401,社築🖥,https://twitter.com/846kizuQ
-11,115639376,ローソン,https://twitter.com/akiko_lawson
-11,1178872236351971328,YOASOBI,https://twitter.com/YOASOBI_staff
-11,1335850917258641409,スタジオジブリ STUDIO GHIBLI,https://twitter.com/JP_GHIBLI
-11,1401587503,松本人志,https://twitter.com/matsu_bouzu
-11,184004752,マクドナルド,https://twitter.com/McDonaldsJapan
-11,186391545,田村正資,https://twitter.com/kaiseitamura
-11,1964452098,しばゆー【東海オンエア】,https://twitter.com/TOKAI_ONAIR
-11,2272500216,りょう【東海オンエア】,https://twitter.com/TO_RYOO
-11,2272511066,としみつ【東海オンエア】1/23新宿ワンマンLIVEマン,https://twitter.com/TO_TOSHIMITSU
-11,2272593702,虫眼鏡【東海オンエア】,https://twitter.com/TO_ZAWAKUN
-11,268758461,まふまふ＠紅白歌合戦,https://twitter.com/uni_mafumafu
-11,711566763788357634,でんがん 🍮,https://twitter.com/dengan875
-11,799629701601837056,鬼滅の刃公式,https://twitter.com/kimetsu_off
-11,883876370698256384,砂川信哉,https://twitter.com/sngw22
-11,89142182,ファミリーマート,https://twitter.com/famima_now
-11,925751113885745152,Shiga Reita 志賀玲太,https://twitter.com/Petzvaled
-11,964000404,シルクロード【Fischer's】,https://twitter.com/RytoSle2
-11,988101299106267138,叶@にじさんじ,https://twitter.com/Kanae_2434
-11,99853725,Eve,https://twitter.com/oO0Eve0Oo
-10,1012211447160455170,笹木咲🎋,https://twitter.com/saku_sasaki
-10,1181863232228610048,『呪術廻戦』アニメ公式,https://twitter.com/animejujutsu
-10,2173047390,てつや【東海オンエア】12/18初エッセイ「天才の根源」極限ver.発表📖,https://twitter.com/TO_TETSUYA
-10,219867859,スターバックス コーヒー,https://twitter.com/Starbucks_J
-10,970692564096499712,剣持刀也⚔️にじさんじ,https://twitter.com/rei_Toya_rei
+Count,ID,Name,URL
+243,778927219422797824,QuizKnock/クイズノック,https://twitter.com/QuizKnock
+152,874501931758047232,ふっくらポリエステル（QuizKnockクイズノック）,https://twitter.com/fukura_p
+151,1257180002,伊沢拓司,https://twitter.com/tax_i_
+134,958943678952648704,須貝 駿貴,https://twitter.com/Sugai_Shunki
+131,780770015121281024,河村・拓哉,https://twitter.com/kawamura_domo
+130,991675491324084224,山本 祥彰,https://twitter.com/quiz_yamamoto
+120,732924494,こうちゃん,https://twitter.com/Miracle_Fusion
+105,1111604531039596544,山上大喜,https://twitter.com/yamagamiQuiz
+104,1212690333462458369,乾,https://twitter.com/QK_inui
+100,791261566058369024,鶴崎 修功,https://twitter.com/Tsurusaki_H
+98,1121007086635106304,林輝幸,https://twitter.com/jusco_hayashi
+46,1420643716138631171,QuizKnockと学ぼう【公式】,https://twitter.com/QuizKnock_manab
+45,130447415,HIKAKIN😎ヒカキン 【YouTuber】,https://twitter.com/hikakin
+44,1351887629894094851,QuizKnock編集部,https://twitter.com/QuizKnock_Web
+43,2927187427,はなお,https://twitter.com/hanao87_0
+40,795985304876249088,松丸 亮吾 🍥,https://twitter.com/ryogomatsumaru
+32,1164789009001766912,QuizKnock Games/クイズノックゲームズ【公式】,https://twitter.com/QuizKnockGames
+31,137857547,前澤友作┃地球に戻りました,https://twitter.com/yousuck2020
+28,1158668053183266816,プロジェクトセカイ カラフルステージ！ feat. 初音ミク【プロセカ】,https://twitter.com/pj_sekai
+27,552700119,はじめしゃちょー(hajime),https://twitter.com/hajimesyacho
+27,883876370698256384,砂川信哉,https://twitter.com/sngw22
+25,711566763788357634,でんがん 🍮,https://twitter.com/dengan875
+24,307902310,任天堂株式会社,https://twitter.com/Nintendo
+24,58794150,米津玄師　ハチ,https://twitter.com/hachi_08
+24,760428449869598720,東大王【次回👉🏻2月2日(水)2時間SP🐱】,https://twitter.com/toudaiou_tbs
+22,104388107,河野太郎,https://twitter.com/konotarogomame
+22,885935041842249728,やまもり / QuizKnock,https://twitter.com/ayac__
+21,1103229230567968768,紀野 紗良,https://twitter.com/sakuramochisara
+21,155207733,花江 夏樹,https://twitter.com/hanae0626
+20,115639376,ローソン,https://twitter.com/akiko_lawson
+20,186391545,田村正資,https://twitter.com/kaiseitamura
+20,268758461,まふまふ＠紅白歌合戦,https://twitter.com/uni_mafumafu
+20,695317713233661952,はなお @🍅おかえりトマおくん🍅,https://twitter.com/hanao_sakebu
+19,129471863,キヨ,https://twitter.com/kiyo_saiore
+19,1401587503,松本人志,https://twitter.com/matsu_bouzu
+19,89142182,ファミリーマート,https://twitter.com/famima_now
+19,925751113885745152,Shiga Reita 志賀玲太,https://twitter.com/Petzvaled
+19,983702503538610176,ぴろまる【積分サークル】,https://twitter.com/piro_integral
+18,1020970696350916608,おってぃ(ー)【積分サークル】,https://twitter.com/ot_integral
+18,1034988269920866304,Yoshida(QuizKnock),https://twitter.com/Yoshida_qk
+18,1178872236351971328,YOASOBI,https://twitter.com/YOASOBI_staff
+18,2173047390,てつや【東海オンエア】12/18初エッセイ「天才の根源」極限ver.発表📖,https://twitter.com/TO_TETSUYA
+18,2422224330,河野玄斗,https://twitter.com/gengen_36
+18,2888006497,Splatoon（スプラトゥーン）,https://twitter.com/SplatoonJP
+18,997497653549088768,∫ すん Συν dx🍋🍋🍋 はぅんsometimesはぁん 'Aυν with Bose,https://twitter.com/sun_sekibun
+18,99853725,Eve,https://twitter.com/oO0Eve0Oo
+17,1964452098,しばゆー【東海オンエア】,https://twitter.com/TOKAI_ONAIR
+17,799629701601837056,鬼滅の刃公式,https://twitter.com/kimetsu_off
+16,1144142348873392129,黛 灰(まゆずみ かい)@にじさんじ,https://twitter.com/mayuzumi_X
+16,17306975,ライブドアニュース,https://twitter.com/livedoornews
+16,184004752,マクドナルド,https://twitter.com/McDonaldsJapan
+16,2272500216,りょう【東海オンエア】,https://twitter.com/TO_RYOO
+16,2272511066,としみつ【東海オンエア】1/23新宿ワンマンLIVEマン,https://twitter.com/TO_TOSHIMITSU
+16,2272593702,虫眼鏡【東海オンエア】,https://twitter.com/TO_ZAWAKUN
+16,2377035565,橋本環奈,https://twitter.com/H_KANNA_0203
+16,2380691000,梶裕貴 Yuki Kaji,https://twitter.com/KAJI__OFFICIAL
+16,2656582075,少年ジャンプ編集部,https://twitter.com/jump_henshubu
+16,848450138,どうぶつの森,https://twitter.com/doubutsuno_mori
+16,883049179576098817,ヨビノリたくみ😬,https://twitter.com/Yobinori
+16,950967576980422657,にじさんじ公式🌈🕒,https://twitter.com/nijisanji_app
+16,964000404,シルクロード【Fischer's】,https://twitter.com/RytoSle2
+16,965760241169088512,葛葉,https://twitter.com/Vamp_Kuzu
+15,1012211447160455170,笹木咲🎋,https://twitter.com/saku_sasaki
+15,1162557335316811776,伊藤七海,https://twitter.com/nanaumi110
+15,1181863232228610048,『呪術廻戦』アニメ公式,https://twitter.com/animejujutsu
+15,118428640,中村悠一,https://twitter.com/nakamuraFF11
+15,1193542753528926210,高松慶,https://twitter.com/Kei_QuizKnock
+15,1335850917258641409,スタジオジブリ STUDIO GHIBLI,https://twitter.com/JP_GHIBLI
+15,219867859,スターバックス コーヒー,https://twitter.com/Starbucks_J
+15,2848709654,あんさんぶるスターズ！！【公式】,https://twitter.com/ensemble_stars
+15,2920764931,水上颯,https://twitter.com/sou_mizukami
+15,91081573,一番くじ（BANDAI SPIRITS）,https://twitter.com/ichibanKUJI
+15,970692564096499712,剣持刀也⚔️にじさんじ,https://twitter.com/rei_Toya_rei
+15,985783965922377729,わが🎧,https://twitter.com/waga_integral
+15,988101299106267138,叶@にじさんじ,https://twitter.com/Kanae_2434
+14,1002342365695078401,社築🖥,https://twitter.com/846kizuQ
+14,1067021869805559809,【公式】ディズニー ツイステッドワンダーランド,https://twitter.com/twst_jp
+14,114446939,有吉弘行,https://twitter.com/ariyoshihiroiki
+14,1227933728,からめる,https://twitter.com/purinharumaki
+14,1339136499216916480,猪俣 大輝,https://twitter.com/inomata_hiroki
+14,1355525189740584965,のえりん,https://twitter.com/8_308_3
+14,276033275,江口拓也（えぐちたくや）,https://twitter.com/egutakuya
+14,2929136138,Ado,https://twitter.com/ado1024imokenp
+14,856135825,小野賢章,https://twitter.com/ono_kensho
+14,921065011367223296,∫ はしけん @G,https://twitter.com/hskn_integral
+14,997758565375918080,さるえる🐧,https://twitter.com/sarrouel_intera
+13,1090060469606338561,Ayase,https://twitter.com/Ayase_0404
+13,1110711077468168192,三枝明那🌶,https://twitter.com/333akina
+13,1167010648410091520,ARASHI,https://twitter.com/arashi5official
+13,119076814,杉田智和/アジルス,https://twitter.com/sugitaLOV
+13,1386219059612553216,岡本沙紀,https://twitter.com/oka_moto_sa_ki
+13,1570086542,中川翔子🐯,https://twitter.com/shoko55mmts
+13,2309594587,葉一/はいち🍀とある男が授業をしてみた🍀次回の自習室は未定です！決まり次第連絡します！,https://twitter.com/haichi_toaru
+13,2507536920,ンダホ【Fischer's】,https://twitter.com/ndahoFischers
+13,2555247516,マサイ【Fischer's】,https://twitter.com/MASAI_Fischers
+13,2582637362,堀越耕平,https://twitter.com/horikoshiko
+13,2854597802,ゆめまる【東海オンエア】,https://twitter.com/TO_yumemarucas
+13,3279668144,幾田 りら,https://twitter.com/ikutalilas
+13,371610505,山下大輝 Daiki Yamashita,https://twitter.com/DaiKing_boy
+13,423644055,リュウジ@料理のおにいさんバズレシピ,https://twitter.com/ore825
+13,468122115,安倍晋三,https://twitter.com/AbeShinzo
+13,87027640,ひろゆき Hiroyuki Nishimura,https://twitter.com/hirox246
+13,921064594277253120,∫ゆうゆうdx(n∈ℙ),https://twitter.com/yewyew_sekibun
+13,978442914693959680,浜辺美波,https://twitter.com/MINAMI373HAMABE
+12,1034137905000636417,でびでび・でびる,https://twitter.com/debidebiru_sama
+12,1059457329710526465,呪術廻戦【公式】,https://twitter.com/jujutsu_PR
+12,1167661570756792320,あんさんぶるスターズ！！Music【公式】,https://twitter.com/enstars_music
+12,125002121,安元洋貴 HIROKI YASUMOTO,https://twitter.com/__yasumoto__
+12,188233441,ケンタッキーフライドチキン🍗,https://twitter.com/KFC_jp
+12,1903428362,すしらーめん《りく》,https://twitter.com/sushi_riku
+12,3819225312,カロリーメイト,https://twitter.com/CalorieMate_jp
+12,53949113,そらる,https://twitter.com/soraruru
+12,769070659943235584,ウマ娘プロジェクト公式アカウント,https://twitter.com/uma_musu
+12,871373481929195522,たっつー🍁,https://twitter.com/tattsuu_int
+12,882075658645417985,ダーマ【Fischer's】,https://twitter.com/M2DAMA
+12,911047687679516672,NITORI,https://twitter.com/NitoriOfficial
+12,94322333,天月-あまつき-,https://twitter.com/_amatsuki_
+12,983917124648255490,2ちゃんねる迷言集,https://twitter.com/mg2b5
+11,1003730852,Fischer's-フィッシャーズ,https://twitter.com/FischersHome
+11,1022844567735824384,椎名唯華👻,https://twitter.com/yuika_siina
+11,1064317162028822528,もふもふ動画,https://twitter.com/tyomateee2
+11,1070960596357509121,原神（Genshin）公式,https://twitter.com/Genshin_7
+11,1193514650723241985,∫るんとう📡dx,https://twitter.com/lunto_integral
+11,1387334238224064524,河野ゆかり,https://twitter.com/yukarikohno
+11,1396654655543726086,後藤 弘,https://twitter.com/kou_goto_
+11,1396750807131848715,東言,https://twitter.com/Gon_Higashi
+11,1447786041973227525,勝田りお,https://twitter.com/rio_shoda
+11,200406959,島﨑信長(島崎信長),https://twitter.com/nobunaga_s
+11,219968157,falcon,https://twitter.com/imadake398yen
+11,2820989858,梅原裕一郎,https://twitter.com/UmeuMeumE_Y
+11,285630596,木村良平,https://twitter.com/Ryouhey_Drunk
+11,2905296974,モトキ【Fischer's】,https://twitter.com/Fs_hasninelives
+11,3004391053,P丸様。🐣🍳,https://twitter.com/p_ma_ru
+11,3091096428,King Gnu,https://twitter.com/KingGnu_JP
+11,324391547,アボガド6,https://twitter.com/avogado6
+11,371675757,浪川大輔,https://twitter.com/namidai0402
+10,1011167857596493824,本間ひまわり🌻,https://twitter.com/honmahimawari
+10,102001821,木村昴,https://twitter.com/GiantSUBAru
+10,1141971886688989184,加賀美 ハヤト🏢,https://twitter.com/H_KAGAMI2434
+10,1184354588213698561,不破湊🥂✨,https://twitter.com/Fuwa_Minato
+10,1221660522971463680,イブラヒム💧,https://twitter.com/honmono_ibrahim
+10,1311649939697537024,ナウル共和国政府観光局（公式）,https://twitter.com/nauru_japan
+10,132355708,セブン‐イレブン・ジャパン,https://twitter.com/711SEJ
+10,133684052,SUNTORY（サントリー）,https://twitter.com/suntory
+10,1362387264412606468,いざわ・ふくらの解けば解くほど賢くなるクイズ,https://twitter.com/kashikokunaruq
+10,1391371088534261768,川上諒人,https://twitter.com/ry_kawakami
+10,1409367400709984260,レオス•ヴィンセント🥼🌱😺にじさんじ,https://twitter.com/Leos_Vincent
+10,1434915670492266496,響平,https://twitter.com/QK_kyohei
+10,1450093814891237377,岡本信彦,https://twitter.com/ok_nobuhiko
+10,161219477,レトルト,https://twitter.com/retokani
+10,2489628272,井口理,https://twitter.com/Satoru_191
+10,2613133640,ZAKAO 【Fischer's】,https://twitter.com/fischerszakao
+10,2942676985,カンタ（水溜りボンド）,https://twitter.com/kantamizutamari
+10,2968069742,【公式】Fate/Grand Order,https://twitter.com/fgoproject
+10,3089546354,ななもり。＠すとぷり,https://twitter.com/love_nkun
+10,3092477581,花澤香菜,https://twitter.com/hanazawa_staff
+10,3129056526,TWICE,https://twitter.com/JYPETWICE
+10,3246185000,常田大希 - Daiki Tsuneta,https://twitter.com/DaikiTsuneta
+10,3255473401,ABEMA(アベマ),https://twitter.com/ABEMA
+10,33290455,DECO*27,https://twitter.com/DECO27
+10,3861642193,莉犬くん＠すとぷり,https://twitter.com/rinu_nico
+10,418573546,めいちゃん（最強）,https://twitter.com/meynico
+10,4294863146,スマイリー😉,https://twitter.com/yasuner1103
+10,543187543,西山宏太朗,https://twitter.com/Koutarotaro
+10,738529042186440708,すとぷり【公式】,https://twitter.com/StPri_info
+10,775280864674525184,バンドリ！ ガールズバンドパーティ！,https://twitter.com/bang_dream_gbp
+10,819264097,ハイキュー!!.com,https://twitter.com/haikyu_com
+10,822486799184314368,YouTube迷コメント集,https://twitter.com/YTMGS
+10,83495654,やしろあずき@新書発売中,https://twitter.com/yashi09
+10,923777732948852736,キッコーマン豆乳 公式,https://twitter.com/kikkoman_tounyu
+10,973458588042633216,アベレージ ⚖,https://twitter.com/Average_Virtual
+10,97587976,津田健次郎 KENJIRO TSUDA,https://twitter.com/tsuda_ken
+10,994648976669360130,中野あるま🧸🍫Alma Nakano,https://twitter.com/nakanoalma6
 9,1001237206445379584,プテラたかはし🦕,https://twitter.com/ptehashi
-9,1003730852,Fischer's-フィッシャーズ,https://twitter.com/FischersHome
 9,1007159969127387136,おらふくん ☃️,https://twitter.com/yukiorajp
 9,1018783794,はたさこ🚩🦊,https://twitter.com/hatasako_flag
-9,1034137905000636417,でびでび・でびる,https://twitter.com/debidebiru_sama
-9,1034988269920866304,Yoshida(QuizKnock),https://twitter.com/Yoshida_qk
-9,1067021869805559809,【公式】ディズニー ツイステッドワンダーランド,https://twitter.com/twst_jp
-9,1103229230567968768,紀野 紗良,https://twitter.com/sakuramochisara
-9,1110711077468168192,三枝明那🌶,https://twitter.com/333akina
-9,114446939,有吉弘行,https://twitter.com/ariyoshihiroiki
-9,1227933728,からめる,https://twitter.com/purinharumaki
+9,107105863,牛沢,https://twitter.com/ushizawa
+9,1076789563438166017,天﨑滉平 (天崎滉平),https://twitter.com/amasakikohei
+9,1107557844855844864,戌亥とこ🍹,https://twitter.com/inui_toko
+9,1107935587271467008,リゼ・ヘルエスタ👑,https://twitter.com/Lize_Helesta
+9,110879535,ガッチマン （総合）,https://twitter.com/Gatchman666
+9,112207890,うらたぬき🍀浦島坂田船/浦田わたる,https://twitter.com/uratasama
+9,1131496563669229568,ニトロ爆弾,https://twitter.com/TO_NITOROBOMB
+9,119744178,ダルビッシュ有(Yu Darvish),https://twitter.com/faridyu
+9,1244433641251336192,甲斐田 晴 🌞,https://twitter.com/Kaida_Haru
+9,129202343,ヒメユリ,https://twitter.com/Himeyurrrrry
+9,1315888376,HIRO,https://twitter.com/GORO_MEME
+9,131742114,千鳥ノブ,https://twitter.com/NOBCHIDORI
 9,1342876115228971014,中野あるま🧸🍫サブ垢,https://twitter.com/nakanoalma0
+9,1343705630,メルカリ,https://twitter.com/mercari_jp
+9,1368490754578948096,ド偏見bot,https://twitter.com/DohenkenBot
+9,1393173063248711681,King & Prince,https://twitter.com/kingandprince_j
+9,1409798257,BTS_official,https://twitter.com/bts_bighit
+9,1414416987703300100,ローレン・イロアス,https://twitter.com/Lauren_iroas
+9,1470044868588507136,どういう状況やねんbot,https://twitter.com/LIKELIKE_OLDMEN
 9,1593801709,なな湖,https://twitter.com/osya_775
-9,17306975,ライブドアニュース,https://twitter.com/livedoornews
-9,1903428362,すしらーめん《りく》,https://twitter.com/sushi_riku
-9,2380691000,梶裕貴 Yuki Kaji,https://twitter.com/KAJI__OFFICIAL
-9,2422224330,河野玄斗,https://twitter.com/gengen_36
-9,2507536920,ンダホ【Fischer's】,https://twitter.com/ndahoFischers
-9,2555247516,マサイ【Fischer's】,https://twitter.com/MASAI_Fischers
+9,167733138,蒼井翔太,https://twitter.com/shouta0811aoi
+9,169480493,日本経済新聞 電子版（日経電子版）,https://twitter.com/nikkei
+9,191004170,ユニバーサル・スタジオ・ジャパン公式,https://twitter.com/USJ_Official
+9,1930287096,モンスターストライク公式(モンスト),https://twitter.com/monst_mixi
+9,1934010613,アニメ「ハイキュー!!」,https://twitter.com/animehaikyu_com
+9,200965355,桜井 政博 / Masahiro Sakurai,https://twitter.com/Sora_Sakurai
+9,204245399,NHKニュース,https://twitter.com/nhk_news
+9,224660540,武井壮,https://twitter.com/sosotakei
+9,2346809580,指原 莉乃,https://twitter.com/345__chan
+9,2530340233,ななもり。＠すとぷり🍓,https://twitter.com/nanamorisan
+9,2595718380,僕のヒーローアカデミア公式,https://twitter.com/myheroacademia
+9,2673761042,スシロー,https://twitter.com/akindosushiroco
 9,2737026049,Is / いず,https://twitter.com/isisis2525
-9,2848709654,あんさんぶるスターズ！！【公式】,https://twitter.com/ensemble_stars
-9,2854597802,ゆめまる【東海オンエア】,https://twitter.com/TO_yumemarucas
-9,2929136138,Ado,https://twitter.com/ado1024imokenp
-9,3004391053,P丸様。🐣🍳,https://twitter.com/p_ma_ru
-9,324391547,アボガド6,https://twitter.com/avogado6
+9,2785593660,刀剣乱舞-本丸通信-【公式】,https://twitter.com/tkrb_ht
+9,3112928295,トミー(水溜りボンド),https://twitter.com/miztamari_nikki
+9,3163966332,るぅと@すとぷり,https://twitter.com/root_nico
+9,3228043340,カップヌードル,https://twitter.com/cupnoodle_jp
+9,3270559442,菅田将暉,https://twitter.com/sudaofficial
+9,3303023652,ころんくん@すとぷり,https://twitter.com/Colon56Nsab
 9,3307638084,なつめ先生,https://twitter.com/soncassooon
-9,33290455,DECO*27,https://twitter.com/DECO27
-9,3819225312,カロリーメイト,https://twitter.com/CalorieMate_jp
-9,468122115,安倍晋三,https://twitter.com/AbeShinzo
-9,769070659943235584,ウマ娘プロジェクト公式アカウント,https://twitter.com/uma_musu
-8,1011167857596493824,本間ひまわり🌻,https://twitter.com/honmahimawari
-8,1022844567735824384,椎名唯華👻,https://twitter.com/yuika_siina
+9,3789057558,土岐 隼一,https://twitter.com/tokishunichi
+9,3969691152,僕のヒーローアカデミア ヒロアカアニメ公式,https://twitter.com/heroaca_anime
+9,4093157479,ジェル@すとぷり,https://twitter.com/Jel__official
+9,4825664978,白井悠介,https://twitter.com/shirai_universe
+9,488103057,pad_sexy　パズル＆ドラゴンズ公式,https://twitter.com/pad_sexy
+9,509722453,SEIKIN (セイキン),https://twitter.com/SeikinTV
+9,538665604,佐藤二朗,https://twitter.com/actor_satojiro
+9,563123941,Fuga,https://twitter.com/Fugabeatbox
+9,724067031297851392,極上のスイーツ,https://twitter.com/sweetroad5
+9,731668649119977473,るぅと²@すとぷり,https://twitter.com/root_nico_2
+9,75786783,ARuFa,https://twitter.com/ARuFa_FARu
+9,763677450131746817,平成を忘れないbot,https://twitter.com/HEISEI_love_bot
+9,767632914292936704,でんがんサブ垢〜まあまあな嵐ファン〜,https://twitter.com/dengan_sub
+9,893331620622548992,ディズニーゲーム公式,https://twitter.com/disneygames_jp
+9,920289838602919936,東京卍リベンジャーズ【公式】,https://twitter.com/toman_official
+9,958737597336928256,月ノ美兎🐰,https://twitter.com/MitoTsukino
+9,973149860474990592,ころんくん@日常,https://twitter.com/colon56nhimitu
+9,981862230151974913,キュルZ,https://twitter.com/kyuryuZ
+8,1009734224369221632,鷹宮リオン🦅,https://twitter.com/TakamiyaRion
+8,1014973243164319744,ちいかわ⏰占い朝5時58分,https://twitter.com/ngnchiikawa
+8,101772216,弟者,https://twitter.com/Otojya
+8,10228272,YouTube,https://twitter.com/YouTube
+8,1030780357665124352,くそざこ☆りいぬきゅん,https://twitter.com/rinu_dayo
+8,1042756119616094208,かこちん🐥🍓,https://twitter.com/ymnkk38
+8,108223197,となりの坂田。@浦島坂田船,https://twitter.com/sakatandao
+8,1090564648795963392,マコ(Makoto Kobori),https://twitter.com/mako77_77
+8,1099996270947528704,アンジュ・カトリーナ⚖本日22時 / やわらかあたま塾,https://twitter.com/Ange_Katrina_
 8,115123543,たけぉ,https://twitter.com/teamfranktakeo
-8,1167661570756792320,あんさんぶるスターズ！！Music【公式】,https://twitter.com/enstars_music
-8,1184354588213698561,不破湊🥂✨,https://twitter.com/Fuwa_Minato
-8,1193542753528926210,高松慶,https://twitter.com/Kei_QuizKnock
+8,116548789,特務機関NERV,https://twitter.com/UN_NERV
+8,1172478094017302528,宮原仁,https://twitter.com/jin_quizknock
+8,1184071904245583874,星川サラ🌟Sara Hoshikawa,https://twitter.com/Sara_Hoshikawa
+8,1184381092041646080,グウェル😎にじさんじ,https://twitter.com/Gwelu_os_gar
+8,120250500,フワちゃん FUWA,https://twitter.com/fuwa876
+8,1245545640626536449,声優と夜あそび＠ABEMA(アベマ),https://twitter.com/yoasobi_ABEMA
+8,1248548632317460480,前野智昭,https://twitter.com/Tomoaki___Maeno
+8,128631478,かいりきベア,https://twitter.com/kairiki_bear
+8,1290261922697289729,下野紘,https://twitter.com/shimono_kousiki
+8,1342056191812227072,直井,https://twitter.com/QK_Naoi
+8,134453022,🤮Gero🤮,https://twitter.com/Gero2525
+8,1366573606549942277,TBS『ラヴィット！』,https://twitter.com/tbs_loveit
+8,1374183712309481478,国分太一,https://twitter.com/tokioinc_taichi
 8,1376400515441946624,ゲスペン@たけぉのサブ垢,https://twitter.com/gesupen_sub
-8,1409798257,BTS_official,https://twitter.com/bts_bighit
+8,1386222411310198790,和田空大,https://twitter.com/sorato_wada
 8,1430069827,めーや,https://twitter.com/meiya_key
-8,1450093814891237377,岡本信彦,https://twitter.com/ok_nobuhiko
-8,161219477,レトルト,https://twitter.com/retokani
+8,145227371,メンタリストDaiGo,https://twitter.com/Mentalist_DaiGo
+8,1452795571618476032,石川界人,https://twitter.com/ish_kaito
+8,162737957,赤髪のとも💎☺︎,https://twitter.com/tomo0723sw
+8,1668249252,EXIT 兼近,https://twitter.com/kanechi_monster
+8,174056039,ミスタードーナツ,https://twitter.com/misterdonut_jp
 8,183461542,maŸUko🥨🐈＠1/20&1/23 TRPG,https://twitter.com/mayuko2525
+8,183645255,フジ,https://twitter.com/fuji_saiore
+8,213550062,music station,https://twitter.com/Mst_com
 8,2306106146,ねろちゃん ` ´,https://twitter.com/ZackdNerrr
+8,2371235972,コイケヤ【公式】,https://twitter.com/koikeya_cp
+8,2560598845,味の素パーク,https://twitter.com/AJINOMOTOPARK
 8,2570075208,めーやくんのサブ垢,https://twitter.com/meiya_keys
-8,2595718380,僕のヒーローアカデミア公式,https://twitter.com/myheroacademia
-8,2613133640,ZAKAO 【Fischer's】,https://twitter.com/fischerszakao
+8,2583889620,泡沫(うたかた),https://twitter.com/utakatao0
+8,265205959,首相官邸(災害・危機管理情報),https://twitter.com/Kantei_Saigai
+8,2684135898,神木隆之介,https://twitter.com/kamiki_official
+8,2691870948,キリン一番搾り生ビール,https://twitter.com/ichiban_KIRIN
+8,278077091,代永翼,https://twitter.com/numanumakapa
+8,2803421714,刀剣乱舞-ONLINE-【運営】,https://twitter.com/TOUKEN_STAFF
+8,2803477274,坊主,https://twitter.com/bozu_108
 8,281544763,高田健志,https://twitter.com/kakaka1216
-8,2968069742,【公式】Fate/Grand Order,https://twitter.com/fgoproject
-8,3089546354,ななもり。＠すとぷり,https://twitter.com/love_nkun
-8,3112928295,トミー(水溜りボンド),https://twitter.com/miztamari_nikki
-8,3129056526,TWICE,https://twitter.com/JYPETWICE
-8,3969691152,僕のヒーローアカデミア ヒロアカアニメ公式,https://twitter.com/heroaca_anime
-8,4294863146,スマイリー😉,https://twitter.com/yasuner1103
+8,282021927,森永製菓,https://twitter.com/morinaga_angel
+8,2829109268,亀田の柿の種（公式）,https://twitter.com/kameda_kakitane
+8,2908701589,しろまんた,https://twitter.com/shiromanta1020
+8,2934830738,ころん＠すとぷり,https://twitter.com/Colon56N
+8,341979193,無添くら寿司【公式】,https://twitter.com/mutenkurasushi
+8,412940784,首相官邸,https://twitter.com/kantei
 8,4473079092,しんたろー,https://twitter.com/Shintaro_Jinro
-8,695317713233661952,はなお @🍅おかえりトマおくん🍅,https://twitter.com/hanao_sakebu
-8,75786783,ARuFa,https://twitter.com/ARuFa_FARu
-8,87027640,ひろゆき Hiroyuki Nishimura,https://twitter.com/hirox246
-8,882075658645417985,ダーマ【Fischer's】,https://twitter.com/M2DAMA
-8,883049179576098817,ヨビノリたくみ😬,https://twitter.com/Yobinori
-8,983702503538610176,ぴろまる【積分サークル】,https://twitter.com/piro_integral
+8,4517434932,ジェル@遠井さん,https://twitter.com/jel_sub
+8,456303228,なるせ🍥,https://twitter.com/nqrse
+8,4643388386,さとみ@すとぷり,https://twitter.com/satoniya_
+8,49379814,志麻@浦島坂田船♔,https://twitter.com/shima_s2
+8,517559170,キリンビール / KIRIN BEER,https://twitter.com/Kirin_Brewery
+8,561669474,アサヒビール ASAHIBEER,https://twitter.com/asahibeer_jp
+8,599969854,tenki.jp地震情報,https://twitter.com/tenkijp_jishin
+8,64717324,【公式】ヴィレッジヴァンガード,https://twitter.com/vv__official
+8,69282959,モスバーガー,https://twitter.com/mos_burger
+8,69496975,しぐれうい🌂,https://twitter.com/ui_shig
+8,717362728512294912,りいぬくん in 隠れ家,https://twitter.com/rinu_sub
+8,723123027655819265,「ファンタスティック・ビースト」公式,https://twitter.com/wizardingw_jp
+8,725927311854313473,◯◯の主役は我々だ！,https://twitter.com/oowareware1945
+8,727933959351324672,さとみさん,https://twitter.com/satomimi__
+8,738199700914872320,ヨルシカ（n-buna、suis） / Official,https://twitter.com/nbuna_staff
+8,740071530302836740,広瀬アリス,https://twitter.com/Alice1211_Mg
+8,745131593392488449,Pokémon GO Japan,https://twitter.com/PokemonGOAppJP
+8,806020707700215808,TWICE JAPAN OFFICIAL,https://twitter.com/JYPETWICE_JAPAN
+8,88846085,Yahoo!ニュース,https://twitter.com/YahooNewsTopics
+8,89151531,バカリズム,https://twitter.com/BAKARHYTHM
+8,897027563725365248,シャトレーゼ【公式】,https://twitter.com/chateraise_jp
+8,899911760764739584,ヒプノシスマイク-D.R.B-公式(ヒプマイ),https://twitter.com/hypnosismic
+8,903338594,菅 義偉,https://twitter.com/sugawitter
+8,936026017461780480,やよい軒（公式）,https://twitter.com/yayoiken_com
+8,95207674,ORICON NEWS（オリコンニュース）,https://twitter.com/oricon
+8,956417883164221440,望月もちぎ@2/18猫本でる,https://twitter.com/omoti194
+8,987228577522376704,【公式】ポケモン情報局,https://twitter.com/poke_times
+8,993283496,アニメ「進撃の巨人」公式アカウント,https://twitter.com/anime_shingeki
+7,1001291760272736257,緑仙🐼Ryushen,https://twitter.com/midori_2434
 7,1002077473360658432,卯月コウ🌙,https://twitter.com/udukikohh
 7,1010815411,影。/かげまる,https://twitter.com/kagemaru0205
 7,102087006,ちゃげぽよ。✿2/11 朗読劇『鈴の音のファンレター』,https://twitter.com/chagenabe
-7,1020970696350916608,おってぃ(ー)【積分サークル】,https://twitter.com/ot_integral
-7,10228272,YouTube,https://twitter.com/YouTube
-7,1059457329710526465,呪術廻戦【公式】,https://twitter.com/jujutsu_PR
-7,1064317162028822528,もふもふ動画,https://twitter.com/tyomateee2
+7,1024591508345741312,Toshiki Masuda / 増田 俊樹,https://twitter.com/ToshikiMasuda38
+7,1027050557465223169,舞元啓介👨‍🌾にじさんじ,https://twitter.com/maimoto_k
+7,1028458841871007744,町田ちま🐹まちたちま,https://twitter.com/chima_machita23
+7,1034345063432650752,ジョー・力一🤡🎈 にじさんじ,https://twitter.com/JoeRikiichi
+7,1034806891803635712,ジェル,https://twitter.com/jel_subsub
+7,1050192071158452224,PayPay株式会社,https://twitter.com/PayPayOfficial
+7,106343759,株式会社アニメイト,https://twitter.com/animateinfo
+7,106996737,センラ@浦島坂田船,https://twitter.com/sen_sen_sen_sen
 7,107937085,サントス🐱⏰,https://twitter.com/syuzoon
-7,1090060469606338561,Ayase,https://twitter.com/Ayase_0404
+7,1085089696022069248,上白石 萌歌,https://twitter.com/moka_____k
+7,1088846280015507456,【公式】株式会社ほえい,https://twitter.com/HOEI_Inc
 7,1109593609928507393,仙人のGEN@ハゲーランス,https://twitter.com/hagenogendesu
 7,111048816,YouTube Japan,https://twitter.com/YouTubeJapan
-7,1141971886688989184,加賀美 ハヤト🏢,https://twitter.com/H_KAGAMI2434
-7,1162557335316811776,伊藤七海,https://twitter.com/nanaumi110
-7,1167010648410091520,ARASHI,https://twitter.com/arashi5official
-7,1172478094017302528,宮原仁,https://twitter.com/jin_quizknock
-7,118428640,中村悠一,https://twitter.com/nakamuraFF11
-7,1184381092041646080,グウェル😎にじさんじ,https://twitter.com/Gwelu_os_gar
-7,1221660522971463680,イブラヒム💧,https://twitter.com/honmono_ibrahim
+7,1111054633563123712,チーム コカ･コーラ,https://twitter.com/TEAMCocaCola
+7,1125700985660198912,エクス・アルビオ🛡【にじさんじ所属】エビオ,https://twitter.com/Ex_Albio
+7,1127510802901024768,るぅと@日常,https://twitter.com/root_dayo
+7,1143824438040748032,相羽 ういは 🍮💎(あいばういは)@にじさんじ,https://twitter.com/AibaUiha
+7,1163746138731585537,アニメ「ポケットモンスター」公式,https://twitter.com/anipoke_PR
+7,1167659764047761409,あんさんぶるスターズ！！Basic【公式】,https://twitter.com/enstars_basic
+7,1178649555107139585,お〜いお茶くん【公式】,https://twitter.com/oiochakun
+7,1221657763954057217,フレン・E・ルスタリオ🎠10/6 アルバム発売,https://twitter.com/furen_2434
 7,1237956908167774208,はたさぶ,https://twitter.com/hatasako_sub
-7,1244433641251336192,甲斐田 晴 🌞,https://twitter.com/Kaida_Haru
-7,125002121,安元洋貴 HIROKI YASUMOTO,https://twitter.com/__yasumoto__
-7,128631478,かいりきベア,https://twitter.com/kairiki_bear
+7,1244548255913930761,長尾 景 ☯️にじさんじ☯️,https://twitter.com/kei_nagao2434
+7,1247032696586436609,岸田文雄,https://twitter.com/kishida230
+7,1248865404941791232,あらなるめい公式,https://twitter.com/aranarumey_info
+7,1268508619726655488,かなえのさぶあか,https://twitter.com/kanae_iroiro
+7,128179494,江戸川コナン,https://twitter.com/conan_file
+7,1289884632637349888,西園チグサ🐬🌱,https://twitter.com/Chigusa_24zono
 7,1299255282321616898,ふじみや,https://twitter.com/fjmy_828
-7,1311649939697537024,ナウル共和国政府観光局（公式）,https://twitter.com/nauru_japan
-7,132355708,セブン‐イレブン・ジャパン,https://twitter.com/711SEJ
-7,133684052,SUNTORY（サントリー）,https://twitter.com/suntory
-7,1342056191812227072,直井,https://twitter.com/QK_Naoi
-7,1355525189740584965,のえりん,https://twitter.com/8_308_3
-7,1362387264412606468,いざわ・ふくらの解けば解くほど賢くなるクイズ,https://twitter.com/kashikokunaruq
+7,130426181,ジョージア,https://twitter.com/GEORGIA_JAPAN
 7,1363260224878956544,なつめ先生@サブ垢,https://twitter.com/sub_natsume
-7,1368490754578948096,ド偏見bot,https://twitter.com/DohenkenBot
-7,1386219059612553216,岡本沙紀,https://twitter.com/oka_moto_sa_ki
-7,1387334238224064524,河野ゆかり,https://twitter.com/yukarikohno
-7,1393173063248711681,King & Prince,https://twitter.com/kingandprince_j
-7,1409367400709984260,レオス•ヴィンセント🥼🌱😺にじさんじ,https://twitter.com/Leos_Vincent
+7,1368809241310466049,【公式】プロジェクトポッチャマ,https://twitter.com/prj_pochama
+7,1374180791685541888,株式会社TOKIO,https://twitter.com/tokioinc_2021
+7,137682023,星野源 Gen Hoshino,https://twitter.com/gen_senden
+7,1379438008374415363,kifutown,https://twitter.com/kifutown
+7,1391645372452245509,Johnny & Associates,https://twitter.com/johnnys
+7,1414413931955638277,アクシア・クローネ🐈‍⬛,https://twitter.com/AXIA_96NE
 7,1425412250,先端恐怖症📌😱UUUM所属,https://twitter.com/SentanKyofusho
-7,145227371,メンタリストDaiGo,https://twitter.com/Mentalist_DaiGo
 7,1453626231765696515,まゆネキ,https://twitter.com/MayuNeki2525
-7,1470044868588507136,どういう状況やねんbot,https://twitter.com/LIKELIKE_OLDMEN
-7,162737957,赤髪のとも💎☺︎,https://twitter.com/tomo0723sw
-7,188233441,ケンタッキーフライドチキン🍗,https://twitter.com/KFC_jp
-7,1930287096,モンスターストライク公式(モンスト),https://twitter.com/monst_mixi
+7,1463837886,めざましテレビ,https://twitter.com/cx_mezamashi
+7,1465590046174908416,すん( '֊' ),https://twitter.com/sun__sekibun
+7,147051225,粗品（霜降り明星）,https://twitter.com/soshina3
+7,1549889018,グランブルーファンタジー,https://twitter.com/granbluefantasy
+7,1610621227,浦島坂田船公式,https://twitter.com/USSS_info
+7,164720026,谷山紀章,https://twitter.com/kishownstarmaps
+7,166979009,みきとP,https://twitter.com/mikito_p_
+7,167110445,一智和智バーサスアース続編更新中,https://twitter.com/burningblossom
+7,168816611,Fashion Press,https://twitter.com/fashionpressnet
+7,1878450026,BTS JAPAN OFFICIAL,https://twitter.com/BTS_jp_official
+7,196519914,榎木淳弥,https://twitter.com/enojunjunjun
 7,212244090,しょぼすけ / ShoboSuke,https://twitter.com/ShoboLinco
-7,224660540,武井壮,https://twitter.com/sosotakei
-7,2309594587,葉一/はいち🍀とある男が授業をしてみた🍀次回の自習室は未定です！決まり次第連絡します！,https://twitter.com/haichi_toaru
+7,218450187,佃煮のりお/犬山たまき🐶💙,https://twitter.com/norioo_
+7,228799622,もこう,https://twitter.com/mokouliszt
+7,2373589484,松本ひで吉,https://twitter.com/hidekiccan
+7,2420554465,大乱闘スマッシュブラザーズ【スマブラ公式】,https://twitter.com/SmashBrosJP
 7,249170474,ズズ,https://twitter.com/zetyou2
-7,2583889620,泡沫(うたかた),https://twitter.com/utakatao0
-7,276033275,江口拓也（えぐちたくや）,https://twitter.com/egutakuya
-7,2820989858,梅原裕一郎,https://twitter.com/UmeuMeumE_Y
-7,2905296974,モトキ【Fischer's】,https://twitter.com/Fs_hasninelives
-7,2942676985,カンタ（水溜りボンド）,https://twitter.com/kantamizutamari
-7,3091096428,King Gnu,https://twitter.com/KingGnu_JP
-7,3092477581,花澤香菜,https://twitter.com/hanazawa_staff
+7,250924296,かまいたち濱家,https://twitter.com/hamaitachi
+7,2598558025,鬱先生50号,https://twitter.com/utu072
+7,264763963,関智一 （チーフ・らぼったー）,https://twitter.com/seki0908
+7,2697192608,広瀬すず,https://twitter.com/Suzu_Mg
+7,271859211,ZIP! 日テレ,https://twitter.com/ZIP_TV
+7,2737034252,仲村 宗悟,https://twitter.com/ShugoAbc
+7,2793976860,Testosterone,https://twitter.com/badassceo
+7,2998461571,ネヲ◇2巻発売中,https://twitter.com/esasi8794
+7,3118917463,モーリーファンタジー【公式】,https://twitter.com/mollyfantasy_of
+7,313812206,ぶんけい,https://twitter.com/bunkei_tk
 7,317684165,乃木坂46,https://twitter.com/nogizaka46
-7,3279668144,幾田 りら,https://twitter.com/ikutalilas
+7,323091128,ポケモン公式ツイッター,https://twitter.com/Pokemon_cojp
+7,3323612191,もう中学生,https://twitter.com/mouchumaruta
+7,3509617752,四千頭身 後藤拓実,https://twitter.com/paiyu2
 7,354947693,ポッキー,https://twitter.com/Pocky_Sweets
-7,371610505,山下大輝 Daiki Yamashita,https://twitter.com/DaiKing_boy
-7,3861642193,莉犬くん＠すとぷり,https://twitter.com/rinu_nico
-7,4093157479,ジェル@すとぷり,https://twitter.com/Jel__official
-7,418573546,めいちゃん（最強）,https://twitter.com/meynico
-7,423644055,リュウジ@料理のおにいさんバズレシピ,https://twitter.com/ore825
-7,488103057,pad_sexy　パズル＆ドラゴンズ公式,https://twitter.com/pad_sexy
+7,385284823,駒田航,https://twitter.com/komaDwataru
+7,4717712652,♦︎Chinozo♦︎,https://twitter.com/chinozo_
 7,505960867,ピカクロス,https://twitter.com/pikakurosu
-7,509722453,SEIKIN (セイキン),https://twitter.com/SeikinTV
 7,528563832,kakiゲーム,https://twitter.com/kakisan116
-7,64717324,【公式】ヴィレッジヴァンガード,https://twitter.com/vv__official
-7,69496975,しぐれうい🌂,https://twitter.com/ui_shig
-7,738529042186440708,すとぷり【公式】,https://twitter.com/StPri_info
-7,740071530302836740,広瀬アリス,https://twitter.com/Alice1211_Mg
-7,763677450131746817,平成を忘れないbot,https://twitter.com/HEISEI_love_bot
+7,626126462,アンク＠金曜ロードショー公式,https://twitter.com/kinro_ntv
+7,66100180,ケースワベ【K-SUWABE】,https://twitter.com/KSUWABE
+7,706495179004317696,ファッションセンターしまむら,https://twitter.com/shimamura_gr
+7,717628618906570752,アサヒ飲料AsahiSoftDrinks,https://twitter.com/asahiinryo_jp
+7,728397348850696194,キャラメルコーン【東ハト公式】,https://twitter.com/CaramelCorn1971
+7,729595789526245376,【公式】カゴメ,https://twitter.com/KAGOME_JP
 7,773009023813554176,羊飼いK,https://twitter.com/knojinro
-7,806020707700215808,TWICE JAPAN OFFICIAL,https://twitter.com/JYPETWICE_JAPAN
-7,848450138,どうぶつの森,https://twitter.com/doubutsuno_mori
-7,856135825,小野賢章,https://twitter.com/ono_kensho
-7,88846085,Yahoo!ニュース,https://twitter.com/YahooNewsTopics
-7,91081573,一番くじ（BANDAI SPIRITS）,https://twitter.com/ichibanKUJI
-7,920289838602919936,東京卍リベンジャーズ【公式】,https://twitter.com/toman_official
-7,923777732948852736,キッコーマン豆乳 公式,https://twitter.com/kikkoman_tounyu
+7,823576682426531840,まあたそ@岡山が生んだ奇跡の不細工😷,https://twitter.com/m591ts
+7,852174673781641216,動物・癒しbot 🐾,https://twitter.com/animal_iyashl
+7,870196197767626753,丸亀製麺【公式】,https://twitter.com/UdonMarugame
+7,880048640261201921,ざこもりちゃん,https://twitter.com/nanamorinyan
+7,91010321,ユニクロ,https://twitter.com/UNIQLO_JP
+7,929244857054281729,ブレイクスルー佐々木,https://twitter.com/BreakthroughSSK
 7,93140977,桃＋（とーたす）🍑➕,https://twitter.com/totas0619
-7,958737597336928256,月ノ美兎🐰,https://twitter.com/MitoTsukino
-7,973149860474990592,ころんくん@日常,https://twitter.com/colon56nhimitu
+7,948962967843880960,すりぃ@LIVE決定,https://twitter.com/iii0303_8
+7,966214959251079168,はま寿司【公式】,https://twitter.com/hamasushi_jp
 7,977057458903425024,黒川クロム⚜️,https://twitter.com/DirtyCrepe
-7,983917124648255490,2ちゃんねる迷言集,https://twitter.com/mg2b5
-7,985783965922377729,わが🎧,https://twitter.com/waga_integral
+7,978829424056397824,内田雄馬公式アカウント,https://twitter.com/yuma_u_official
+7,978953997443776514,山本ゆり（syunkon レンジは600W),https://twitter.com/syunkon0507
+7,986275202030907392,ACAね (ずっと真夜中でいいのに。),https://twitter.com/zutomayo
+7,987311803704139776,だるまいずごっど,https://twitter.com/darumaisgod
+7,991344914112823296,はじめしゃちょーの畑,https://twitter.com/hajimesyachoHTK
+7,993257886,syudou,https://twitter.com/tikandame
 7,996136511379681280,プテラノドンの日常,https://twitter.com/ptelife
-7,997497653549088768,∫ すん Συν dx🍋🍋🍋 はぅんsometimesはぁん 'Aυν with Bose,https://twitter.com/sun_sekibun
+7,999942020238995456,花畑チャイカ🌵we are にじさんじ!!,https://twitter.com/ZulmIhP1nlMOT5y
 6,1000324666697728000,シスター・クレア🔔,https://twitter.com/SisterCleaire
-6,1001291760272736257,緑仙🐼Ryushen,https://twitter.com/midori_2434
-6,1009734224369221632,鷹宮リオン🦅,https://twitter.com/TakamiyaRion
+6,1006870380512870400,じゃがりこ【公式】,https://twitter.com/jagarico_cp
 6,1009751809966010368,竜胆 尊,https://twitter.com/RindouMikoto
-6,1014973243164319744,ちいかわ⏰占い朝5時58分,https://twitter.com/ngnchiikawa
-6,101772216,弟者,https://twitter.com/Otojya
-6,102001821,木村昴,https://twitter.com/GiantSUBAru
-6,1027050557465223169,舞元啓介👨‍🌾にじさんじ,https://twitter.com/maimoto_k
-6,1028458841871007744,町田ちま🐹まちたちま,https://twitter.com/chima_machita23
-6,1030780357665124352,くそざこ☆りいぬきゅん,https://twitter.com/rinu_dayo
+6,1017321652923711488,Pepsi（ペプシ）,https://twitter.com/pepsi_jpn
 6,1031772629072457729,ましゃかり@動画屋🍙,https://twitter.com/masakari0601071
 6,1032564107038224386,初めまして松尾です,https://twitter.com/20hajimemashite
-6,1034345063432650752,ジョー・力一🤡🎈 にじさんじ,https://twitter.com/JoeRikiichi
-6,1034806891803635712,ジェル,https://twitter.com/jel_subsub
 6,1041915108069261313,花芽すみれ👾💤,https://twitter.com/sumire_kaga
-6,1042756119616094208,かこちん🐥🍓,https://twitter.com/ymnkk38
 6,1048122071551639552,ずっと真夜中でいいのに｡(ｽﾀｯﾌ),https://twitter.com/zutomayo_staff
-6,1050192071158452224,PayPay株式会社,https://twitter.com/PayPayOfficial
-6,106343759,株式会社アニメイト,https://twitter.com/animateinfo
-6,1070960596357509121,原神（Genshin）公式,https://twitter.com/Genshin_7
-6,107105863,牛沢,https://twitter.com/ushizawa
-6,1076789563438166017,天﨑滉平 (天崎滉平),https://twitter.com/amasakikohei
-6,108223197,となりの坂田。@浦島坂田船,https://twitter.com/sakatandao
-6,1085089696022069248,上白石 萌歌,https://twitter.com/moka_____k
+6,1074577629360021504,すき家【公式】,https://twitter.com/sukiya_jp
+6,1075708405363421184,【公式】アニメ「あんさんぶるスターズ！！-Road to Show!!-」,https://twitter.com/stars_animation
 6,1085375212575571968,郡道美玲🐽活動3周年,https://twitter.com/g9v9g_mirei
-6,1088846280015507456,【公式】株式会社ほえい,https://twitter.com/HOEI_Inc
-6,1090564648795963392,マコ(Makoto Kobori),https://twitter.com/mako77_77
-6,1099996270947528704,アンジュ・カトリーナ⚖本日22時 / やわらかあたま塾,https://twitter.com/Ange_Katrina_
+6,1085677467551948800,立花慎之介,https://twitter.com/REAL_1978_TS
+6,1090846890814365696,明治 エッセル スーパーカップ【公式】,https://twitter.com/essel_sweets
+6,1097863915,「カルピス“水玉通信”」,https://twitter.com/calpis_mizutama
 6,1101474074474106880,鉄一,https://twitter.com/mada_tetsukazu
-6,1107557844855844864,戌亥とこ🍹,https://twitter.com/inui_toko
-6,1107935587271467008,リゼ・ヘルエスタ👑,https://twitter.com/Lize_Helesta
-6,110879535,ガッチマン （総合）,https://twitter.com/Gatchman666
+6,1105434920829120512,QUOカードPay （クオとペイ）,https://twitter.com/QUOcardPay
 6,1109751762733301760,猫又おかゆ🍙,https://twitter.com/nekomataokayu
 6,1113380705042620417,マインクラフト 日本公式 / Minecraft Japan,https://twitter.com/minecraftjapan
-6,112207890,うらたぬき🍀浦島坂田船/浦田わたる,https://twitter.com/uratasama
-6,1125700985660198912,エクス・アルビオ🛡【にじさんじ所属】エビオ,https://twitter.com/Ex_Albio
-6,1127510802901024768,るぅと@日常,https://twitter.com/root_dayo
-6,1131496563669229568,ニトロ爆弾,https://twitter.com/TO_NITOROBOMB
-6,1143824438040748032,相羽 ういは 🍮💎(あいばういは)@にじさんじ,https://twitter.com/AibaUiha
+6,1143380343384236032,【公式】シャウエッセン,https://twitter.com/schauessen_nh
 6,1144541744639250432,夜見れな❥にじさんじ所属,https://twitter.com/rena_yorumi
 6,1144558351788859393,ラトナ・プティ🐻💎５日復帰《にじさんじ所属》,https://twitter.com/ratna_petit
 6,1145981354074464257,ゆきむら。@騎士A,https://twitter.com/Xykmr
 6,1146300489832837125,天宮こころ🎐,https://twitter.com/amamiya_kokoro
 6,1148570645908770816,魔法使いの約束【公式】,https://twitter.com/mahoyaku_info
-6,1167659764047761409,あんさんぶるスターズ！！Basic【公式】,https://twitter.com/enstars_basic
-6,1178649555107139585,お〜いお茶くん【公式】,https://twitter.com/oiochakun
-6,1184071904245583874,星川サラ🌟Sara Hoshikawa,https://twitter.com/Sara_Hoshikawa
-6,119076814,杉田智和/アジルス,https://twitter.com/sugitaLOV
-6,1193514650723241985,∫るんとう📡dx,https://twitter.com/lunto_integral
-6,119744178,ダルビッシュ有(Yu Darvish),https://twitter.com/faridyu
-6,120250500,フワちゃん FUWA,https://twitter.com/fuwa876
+6,1168296497168838657,みさみさ,https://twitter.com/misamisa_1029_
+6,1189903973316100101,藤白りり,https://twitter.com/medicalriri
+6,1190490098510336005,ちーの@我々だ,https://twitter.com/C1no_wrwrd
+6,119710810,ドミノ・ピザ,https://twitter.com/dominos_JP
+6,1198906235673661440,【ハニプレ】好評配信中！｜HoneyWorks公式リズムゲーム┗|∵|┓,https://twitter.com/HoneyWorks_Game
 6,1208326128596766720,奈羅花✖🍳,https://twitter.com/Naraka_2434
 6,1211893214451421185,オグラサトシ,https://twitter.com/qk_ogura
 6,122053352,スナパイ,https://twitter.com/snapaaai
-6,1221657763954057217,フレン・E・ルスタリオ🎠10/6 アルバム発売,https://twitter.com/furen_2434
+6,122339708,☆イニ☆(じん),https://twitter.com/JINJIN1027
+6,1232950231722938368,それSnow Manにやらせて下さい,https://twitter.com/sore_snowman
 6,1244254367806410753,弦月 藤士郎🎻🛵にじさんじ,https://twitter.com/1O46V
-6,1244548255913930761,長尾 景 ☯️にじさんじ☯️,https://twitter.com/kei_nagao2434
-6,1245545640626536449,声優と夜あそび＠ABEMA(アベマ),https://twitter.com/yoasobi_ABEMA
-6,1247032696586436609,岸田文雄,https://twitter.com/kishida230
-6,1248865404941791232,あらなるめい公式,https://twitter.com/aranarumey_info
-6,1268508619726655488,かなえのさぶあか,https://twitter.com/kanae_iroiro
-6,128179494,江戸川コナン,https://twitter.com/conan_file
-6,1289884632637349888,西園チグサ🐬🌱,https://twitter.com/Chigusa_24zono
-6,1290261922697289729,下野紘,https://twitter.com/shimono_kousiki
-6,129202343,ヒメユリ,https://twitter.com/Himeyurrrrry
+6,125646716,NTTドコモ,https://twitter.com/docomo
+6,1258782083150835712,ロフ〜アジア最強の男達〜,https://twitter.com/Rofumans
+6,1273850074280255488,二ノ国：Cross Worlds公式,https://twitter.com/NinoKuniCW
+6,1296653470510923776,葛葉レオ,https://twitter.com/Vllexceed
 6,1297110770354753537,KnightA-騎士A-,https://twitter.com/Knight_A_info
 6,1299150935810162689,モンスターハンターライズ公式,https://twitter.com/MH_Rise_JP
-6,1315888376,HIRO,https://twitter.com/GORO_MEME
-6,131742114,千鳥ノブ,https://twitter.com/NOBCHIDORI
+6,1311287309493399555,チャンイケ（池田和記）,https://twitter.com/quiz_bowling
+6,1321270659360550913,ソフロレリア,https://twitter.com/Soph_qk
 6,1332997440908062720,おらふくんサブ,https://twitter.com/warufu_sub
-6,1339136499216916480,猪俣 大輝,https://twitter.com/inomata_hiroki
+6,1338367106715246592,村瀬歩,https://twitter.com/murase_pipipi
 6,1342817088218402816,あめみー(QuizKnock),https://twitter.com/amemy_qk
-6,1343705630,メルカリ,https://twitter.com/mercari_jp
-6,134453022,🤮Gero🤮,https://twitter.com/Gero2525
 6,1347521688599027714,いずちゃんねる,https://twitter.com/rSem2525
-6,1366573606549942277,TBS『ラヴィット！』,https://twitter.com/tbs_loveit
-6,1368809241310466049,【公式】プロジェクトポッチャマ,https://twitter.com/prj_pochama
-6,1374180791685541888,株式会社TOKIO,https://twitter.com/tokioinc_2021
-6,1374183712309481478,国分太一,https://twitter.com/tokioinc_taichi
-6,1379438008374415363,kifutown,https://twitter.com/kifutown
-6,1391371088534261768,川上諒人,https://twitter.com/ry_kawakami
-6,1396654655543726086,後藤 弘,https://twitter.com/kou_goto_
-6,1396750807131848715,東言,https://twitter.com/Gon_Higashi
+6,135017078,驚安の殿堂 ドン・キホーテ,https://twitter.com/donki_donki
+6,1373598385,Mrs. GREEN APPLE,https://twitter.com/AORINGOHUZIN
 6,1409441150448979971,森田晃平(QuizKnock),https://twitter.com/kmorita_qk
-6,1414413931955638277,アクシア・クローネ🐈‍⬛,https://twitter.com/AXIA_96NE
-6,1414416987703300100,ローレン・イロアス,https://twitter.com/Lauren_iroas
 6,1414419155881627649,オリバー・エバンス,https://twitter.com/oliverD_23
 6,1415542022887280641,大学生のきしょいストーリー,https://twitter.com/kisyo_story
 6,1420038728156729344,ハル(QuizKnock),https://twitter.com/hal_qk
-6,1434915670492266496,響平,https://twitter.com/QK_kyohei
-6,1447786041973227525,勝田りお,https://twitter.com/rio_shoda
-6,1452795571618476032,石川界人,https://twitter.com/ish_kaito
+6,1427861485917642752,あんスタ刑事【公式】,https://twitter.com/enstars_deka
+6,1436270760708898822,LEOの遊び場【山田涼介】,https://twitter.com/room_leo_info
+6,1439809402643443717,大倉忠義／Producer,https://twitter.com/J_ohkura_88
+6,1448627067856179203,Kep1er,https://twitter.com/official_kep1er
 6,1463366736,しらスタ | おしら,https://twitter.com/ryo_shiraishi
-6,1549889018,グランブルーファンタジー,https://twitter.com/granbluefantasy
-6,1570086542,中川翔子🐯,https://twitter.com/shoko55mmts
+6,1468816029032017920,QuizKnock STADIUM公式,https://twitter.com/QK_STADIUM
+6,1481025810,ANA旅のつぶやき【公式】,https://twitter.com/ANA_travel_info
+6,148307577,M-1グランプリ,https://twitter.com/M1GRANDPRIX
+6,149481831,＠小豆,https://twitter.com/azukin_toki
+6,1530718705,酒桜🐖,https://twitter.com/sakezakura
+6,1634901307,キリンビバレッジ♪,https://twitter.com/Kirin_Company
 6,1667551915,あらき⏩,https://twitter.com/axiz_and_nico
-6,166979009,みきとP,https://twitter.com/mikito_p_
-6,167110445,一智和智バーサスアース続編更新中,https://twitter.com/burningblossom
-6,168816611,Fashion Press,https://twitter.com/fashionpressnet
-6,169480493,日本経済新聞 電子版（日経電子版）,https://twitter.com/nikkei
 6,1701331939,わっきゃい,https://twitter.com/wildkumada
-6,183645255,フジ,https://twitter.com/fuji_saiore
-6,1878450026,BTS JAPAN OFFICIAL,https://twitter.com/BTS_jp_official
+6,183640212,ヒラ,https://twitter.com/hira_saiore
 6,188539961,きくちゆうき,https://twitter.com/yuukikikuchi
-6,191004170,ユニバーサル・スタジオ・ジャパン公式,https://twitter.com/USJ_Official
-6,1934010613,アニメ「ハイキュー!!」,https://twitter.com/animehaikyu_com
+6,19409571,テラゾー,https://twitter.com/terazo
 6,1946822772,コウイチ,https://twitter.com/ko1529
-6,196519914,榎木淳弥,https://twitter.com/enojunjunjun
-6,200406959,島﨑信長(島崎信長),https://twitter.com/nobunaga_s
-6,200965355,桜井 政博 / Masahiro Sakurai,https://twitter.com/Sora_Sakurai
-6,204245399,NHKニュース,https://twitter.com/nhk_news
-6,213550062,music station,https://twitter.com/Mst_com
-6,218450187,佃煮のりお/犬山たまき🐶💙,https://twitter.com/norioo_
-6,219968157,falcon,https://twitter.com/imadake398yen
-6,228799622,もこう,https://twitter.com/mokouliszt
+6,195775738,au,https://twitter.com/au_official
+6,209576618,田中将大/MASAHIRO TANAKA,https://twitter.com/t_masahiro18
+6,220332457,きゃりーぱみゅぱみゅ,https://twitter.com/pamyurin
+6,2232748813,UUUM,https://twitter.com/uuum_news
+6,2314870309,綾鷹（あやたか）,https://twitter.com/ayatakaJP
+6,2316574981,Galaxy Mobile Japan,https://twitter.com/GalaxyMobileJP
 6,2331794438,足湯👣♨️,https://twitter.com/asiyu210
 6,2335871349,カマたく@CRAZE,https://twitter.com/takuya_hyon
-6,2346809580,指原 莉乃,https://twitter.com/345__chan
-6,2371235972,コイケヤ【公式】,https://twitter.com/koikeya_cp
-6,2373589484,松本ひで吉,https://twitter.com/hidekiccan
-6,2377035565,橋本環奈,https://twitter.com/H_KANNA_0203
-6,2420554465,大乱闘スマッシュブラザーズ【スマブラ公式】,https://twitter.com/SmashBrosJP
 6,2438169474,【公式】城とドラゴン (城ドラ),https://twitter.com/shirotodoragon
-6,2489628272,井口理,https://twitter.com/Satoru_191
-6,2530340233,ななもり。＠すとぷり🍓,https://twitter.com/nanamorisan
-6,2560598845,味の素パーク,https://twitter.com/AJINOMOTOPARK
-6,265205959,首相官邸(災害・危機管理情報),https://twitter.com/Kantei_Saigai
-6,2673761042,スシロー,https://twitter.com/akindosushiroco
-6,2684135898,神木隆之介,https://twitter.com/kamiki_official
-6,2691870948,キリン一番搾り生ビール,https://twitter.com/ichiban_KIRIN
+6,245677083,橋下徹,https://twitter.com/hashimoto_lo
+6,2522040290,伊藤沙莉,https://twitter.com/SaiRi_iTo
+6,253021888,ミニストップ公式アカウント,https://twitter.com/ministop_fan
+6,253085057,じん＠2月16日アルバム『アレゴリーズ』発売,https://twitter.com/jin_jin_suruyo
+6,2586996049,キットカット,https://twitter.com/KITKATJapan
+6,264647686,大石昌良【オーイシマサヨシ】,https://twitter.com/Masayoshi_Oishi
 6,269245634,とりっぴぃ,https://twitter.com/taruu21
-6,2697192608,広瀬すず,https://twitter.com/Suzu_Mg
 6,2724049374,ぴくと,https://twitter.com/p1kt3
-6,2793976860,Testosterone,https://twitter.com/badassceo
+6,2739846710,☞ゑむ氏。@フォーエイト,https://twitter.com/Mk0104Sig
+6,2762217426,コネ,https://twitter.com/konegisukura
+6,2762836285,シャオロン,https://twitter.com/shao_banbitan
+6,2796127795,トントン＠一般視聴者オタク,https://twitter.com/ton_ton1945
 6,2803147026,なかのっち🐒@YouTuber,https://twitter.com/nakanocchi2
-6,2803477274,坊主,https://twitter.com/bozu_108
-6,282021927,森永製菓,https://twitter.com/morinaga_angel
-6,2829109268,亀田の柿の種（公式）,https://twitter.com/kameda_kakitane
-6,285630596,木村良平,https://twitter.com/Ryouhey_Drunk
+6,2805040110,Ｊリーグ（日本プロサッカーリーグ）,https://twitter.com/J_League
 6,2885889434,うめけん🥛,https://twitter.com/umekenpp
-6,2908701589,しろまんた,https://twitter.com/shiromanta1020
-6,2920764931,水上颯,https://twitter.com/sou_mizukami
-6,2934830738,ころん＠すとぷり,https://twitter.com/Colon56N
-6,2998461571,ネヲ◇2巻発売中,https://twitter.com/esasi8794
+6,301182083,ニチレイフーズ【公式】,https://twitter.com/nichirei_foods
+6,3036621878,テオくん@幸せ者,https://twitter.com/teokun711
 6,3049693046,先端恐怖症@サブアカ,https://twitter.com/sentan2525
 6,3061656026,びーやま@私文の王,https://twitter.com/asalabo_jp
-6,313812206,ぶんけい,https://twitter.com/bunkei_tk
-6,3163966332,るぅと@すとぷり,https://twitter.com/root_nico
-6,3228043340,カップヌードル,https://twitter.com/cupnoodle_jp
-6,323091128,ポケモン公式ツイッター,https://twitter.com/Pokemon_cojp
-6,3246185000,常田大希 - Daiki Tsuneta,https://twitter.com/DaikiTsuneta
-6,3255473401,ABEMA(アベマ),https://twitter.com/ABEMA
-6,3270559442,菅田将暉,https://twitter.com/sudaofficial
-6,3303023652,ころんくん@すとぷり,https://twitter.com/Colon56Nsab
+6,309628515,Ponta,https://twitter.com/Ponta
+6,315893211,岩井勇気 ハライチ,https://twitter.com/iwaiyu_ki
+6,3268149966,オスマン@○○の主役は我々だ！,https://twitter.com/OSSUOSSUMAN
 6,3321902228,まひとくん 。ܤ@騎士A,https://twitter.com/bacuwa
-6,3323612191,もう中学生,https://twitter.com/mouchumaruta
 6,3335453780,ﾘﾛ氏/LiloSHI,https://twitter.com/ly_rone
-6,341979193,無添くら寿司【公式】,https://twitter.com/mutenkurasushi
+6,335141638,방탄소년단,https://twitter.com/BTS_twt
 6,3425010312,ゆきりぬ✌🏻🌷,https://twitter.com/yukirin_u
 6,362401254,高須克弥,https://twitter.com/katsuyatakasu
+6,368078659,あほのさかた,https://twitter.com/sakatansab
 6,3690430214,After the Rain,https://twitter.com/ATR_info
-6,371675757,浪川大輔,https://twitter.com/namidai0402
 6,374363691,らっだぁ,https://twitter.com/radaokun
-6,3789057558,土岐 隼一,https://twitter.com/tokishunichi
+6,393339671,ガスト【公式】,https://twitter.com/gusto_official
+6,4030203792,イオン,https://twitter.com/AEON_JAPAN
 6,404759173,LINE,https://twitter.com/LINEjp_official
 6,4104111,地震速報,https://twitter.com/earthquake_jp
-6,412940784,首相官邸,https://twitter.com/kantei
 6,416867735,ライバロリ,https://twitter.com/raibarori
+6,43041891,tenki.jp,https://twitter.com/tenkijp
+6,4344085399,舞台『刀剣乱舞』公式,https://twitter.com/stage_touken
+6,4476111980,P丸様。のサヴ🐣🍳,https://twitter.com/p_sabu_maru
 6,45085622,オモコロ,https://twitter.com/omocoro
-6,4517434932,ジェル@遠井さん,https://twitter.com/jel_sub
-6,456303228,なるせ🍥,https://twitter.com/nqrse
-6,4643388386,さとみ@すとぷり,https://twitter.com/satoniya_
-6,4717712652,♦︎Chinozo♦︎,https://twitter.com/chinozo_
+6,4545124574,めぐりズム公式,https://twitter.com/megrhythm_kao
+6,4628833699,ナガノ,https://twitter.com/ngntrtr
+6,4646222472,ココス【公式】,https://twitter.com/cocos_campaign
 6,4727798066,しゅう,https://twitter.com/shussyussyu
-6,4825664978,白井悠介,https://twitter.com/shirai_universe
-6,49379814,志麻@浦島坂田船♔,https://twitter.com/shima_s2
-6,517559170,キリンビール / KIRIN BEER,https://twitter.com/Kirin_Brewery
-6,538665604,佐藤二朗,https://twitter.com/actor_satojiro
-6,53949113,そらる,https://twitter.com/soraruru
-6,543187543,西山宏太朗,https://twitter.com/Koutarotaro
+6,4749497552,宇佐見天彗(すばる)🐼PASSLABO,https://twitter.com/todai_igakubu
+6,4788890402,永野芽郁,https://twitter.com/mei_nagano0924
+6,523136880,少年T／佐香智久,https://twitter.com/syounen_t_sako
 6,560213512,しゆん@騎士A,https://twitter.com/shiyun928
-6,561669474,アサヒビール ASAHIBEER,https://twitter.com/asahibeer_jp
-6,563123941,Fuga,https://twitter.com/Fugabeatbox
-6,599969854,tenki.jp地震情報,https://twitter.com/tenkijp_jishin
-6,626126462,アンク＠金曜ロードショー公式,https://twitter.com/kinro_ntv
-6,66100180,ケースワベ【K-SUWABE】,https://twitter.com/KSUWABE
-6,69282959,モスバーガー,https://twitter.com/mos_burger
+6,5921162,ファミ通.com,https://twitter.com/famitsu
+6,61655254,TSUTAYA,https://twitter.com/shop_TSUTAYA
+6,66632516,コカ･コーラ,https://twitter.com/CocaColaJapan
 6,7080152,Twitter Japan,https://twitter.com/TwitterJP
-6,717362728512294912,りいぬくん in 隠れ家,https://twitter.com/rinu_sub
-6,717628618906570752,アサヒ飲料AsahiSoftDrinks,https://twitter.com/asahiinryo_jp
-6,723123027655819265,「ファンタスティック・ビースト」公式,https://twitter.com/wizardingw_jp
-6,724067031297851392,極上のスイーツ,https://twitter.com/sweetroad5
-6,725927311854313473,◯◯の主役は我々だ！,https://twitter.com/oowareware1945
-6,727933959351324672,さとみさん,https://twitter.com/satomimi__
-6,729595789526245376,【公式】カゴメ,https://twitter.com/KAGOME_JP
-6,731668649119977473,るぅと²@すとぷり,https://twitter.com/root_nico_2
-6,738199700914872320,ヨルシカ（n-buna、suis） / Official,https://twitter.com/nbuna_staff
-6,745131593392488449,Pokémon GO Japan,https://twitter.com/PokemonGOAppJP
-6,767632914292936704,でんがんサブ垢〜まあまあな嵐ファン〜,https://twitter.com/dengan_sub
+6,710658568416985088,ABEMAアニメ(アベアニ),https://twitter.com/Anime_ABEMA
+6,717641026832207872,紅茶花伝 こだわりTEAHOUSE,https://twitter.com/KOCHAKADEN_1992
+6,717868248,豊永利行,https://twitter.com/TossuiKUN
+6,722997965783072772,LINE：ディズニー ツムツム公式,https://twitter.com/LINE_tsumtsum_j
+6,725265957866901505,DAZN Japan,https://twitter.com/DAZN_JPN
+6,729511126283657216,バブ公式,https://twitter.com/bub_jp
+6,762652116716363780,ロボロ(天の声),https://twitter.com/roboro_heaven
+6,77247019,まお,https://twitter.com/maoppai
 6,774049483,Official髭男dism,https://twitter.com/officialhige
-6,775280864674525184,バンドリ！ ガールズバンドパーティ！,https://twitter.com/bang_dream_gbp
 6,791537005981163520,【公式】#コンパス 戦闘摂理解析システム,https://twitter.com/cps_niconico
 6,79159050,プレイステーション公式,https://twitter.com/PlayStation_jp
+6,791900053044506624,寺島くんのアカウント@テオファミ,https://twitter.com/teokun7117
 6,795284666995470336,けん,https://twitter.com/nomorehole2
+6,796251890908434432,ネスカフェ(NESCAFÉ),https://twitter.com/Nescafe_jp
 6,800352876,栗田あぐり,https://twitter.com/kurita_aguri
 6,815406679642677248,マヂカルラブリー 野田クリスタル,https://twitter.com/nodacry
-6,819264097,ハイキュー!!.com,https://twitter.com/haikyu_com
-6,822486799184314368,YouTube迷コメント集,https://twitter.com/YTMGS
-6,823576682426531840,まあたそ@岡山が生んだ奇跡の不細工😷,https://twitter.com/m591ts
-6,83495654,やしろあずき@新書発売中,https://twitter.com/yashi09
 6,83810766,小西 寛明 / HYBRID SENSE,https://twitter.com/HYBRID_SENSE
-6,852174673781641216,動物・癒しbot 🐾,https://twitter.com/animal_iyashl
-6,870196197767626753,丸亀製麺【公式】,https://twitter.com/UdonMarugame
-6,871373481929195522,たっつー🍁,https://twitter.com/tattsuu_int
-6,880048640261201921,ざこもりちゃん,https://twitter.com/nanamorinyan
-6,89151531,バカリズム,https://twitter.com/BAKARHYTHM
-6,893331620622548992,ディズニーゲーム公式,https://twitter.com/disneygames_jp
-6,897027563725365248,シャトレーゼ【公式】,https://twitter.com/chateraise_jp
+6,84503328,サブウェイ,https://twitter.com/subwayjp
+6,855219621451898880,ばぁう＠騎士A,https://twitter.com/Vau1113
+6,861436447856906240,でんだがんどう,https://twitter.com/dendagando
+6,882789714201198592,悠木碧【公式】,https://twitter.com/staff_aoi
+6,893278389175328769,ピザーラ,https://twitter.com/pizzala_jp
 6,897071463915692033,ヒカックゲームズ,https://twitter.com/hikacgames
-6,899911760764739584,ヒプノシスマイク-D.R.B-公式(ヒプマイ),https://twitter.com/hypnosismic
-6,903338594,菅 義偉,https://twitter.com/sugawitter
-6,911047687679516672,NITORI,https://twitter.com/NitoriOfficial
-6,921064594277253120,∫ゆうゆうdx(n∈ℙ),https://twitter.com/yewyew_sekibun
-6,921065011367223296,∫ はしけん @G,https://twitter.com/hskn_integral
-6,929244857054281729,ブレイクスルー佐々木,https://twitter.com/BreakthroughSSK
+6,914665872450449408,堀江瞬（ほりえしゅん）💮,https://twitter.com/holy_yell0525
+6,916561014706937856,ゾム@我々だ,https://twitter.com/wrwrdzom
+6,920121125824114688,宮野真守公式,https://twitter.com/miyanomamoru_PR
 6,935040092481060864,コジマ（QuizKnock）,https://twitter.com/KojimaQK
-6,936026017461780480,やよい軒（公式）,https://twitter.com/yayoiken_com
-6,94322333,天月-あまつき-,https://twitter.com/_amatsuki_
-6,948962967843880960,すりぃ@LIVE決定,https://twitter.com/iii0303_8
-6,95207674,ORICON NEWS（オリコンニュース）,https://twitter.com/oricon
 6,953658313832415232,鈴木福,https://twitter.com/Suzuki_Fuku_TE
+6,955991147993751553,【公式】松屋,https://twitter.com/matsuya_foods
 6,958264156683091969,フォートナイト,https://twitter.com/FortniteJP
 6,958767484902957056,勇気 ちひろ🎀💙,https://twitter.com/Chihiro_yuki23
+6,969532990907826176,キムテス,https://twitter.com/kimuti_X
 6,970645330956963840,伏見ガク(22)†にじさんじ所属,https://twitter.com/gaku_fushimi
 6,970940146680868864,鈴鹿詩子🎶 不定期配信&ネタ動画投稿,https://twitter.com/suzukautako
-6,973458588042633216,アベレージ ⚖,https://twitter.com/Average_Virtual
 6,975275878673408001,星街すいせい☄️ホロライブ0期生,https://twitter.com/suisei_hosimati
-6,97587976,津田健次郎 KENJIRO TSUDA,https://twitter.com/tsuda_ken
-6,978442914693959680,浜辺美波,https://twitter.com/MINAMI373HAMABE
-6,978829424056397824,内田雄馬公式アカウント,https://twitter.com/yuma_u_official
-6,978953997443776514,山本ゆり（syunkon レンジは600W),https://twitter.com/syunkon0507
-6,981862230151974913,キュルZ,https://twitter.com/kyuryuZ
+6,976588086481117184,なつめさんち⭕️🐤,https://twitter.com/natsume_sanchi
 6,983316818818248707,『約束のネバーランド』公式,https://twitter.com/yakuneba_staff
-6,986275202030907392,ACAね (ずっと真夜中でいいのに。),https://twitter.com/zutomayo
-6,987228577522376704,【公式】ポケモン情報局,https://twitter.com/poke_times
-6,987311803704139776,だるまいずごっど,https://twitter.com/darumaisgod
-6,991344914112823296,はじめしゃちょーの畑,https://twitter.com/hajimesyachoHTK
-6,993257886,syudou,https://twitter.com/tikandame
-6,993283496,アニメ「進撃の巨人」公式アカウント,https://twitter.com/anime_shingeki
-6,994648976669360130,中野あるま🧸🍫Alma Nakano,https://twitter.com/nakanoalma6
+6,989407367962939393,from ARGONAVIS（フロム アルゴナビス）公式,https://twitter.com/ARGONAVIS_info
+6,993690881818427392,【公式】IdentityV 第五人格,https://twitter.com/IdentityVJP
+6,994479344918511616,BuzzFeed☃️Kawaii,https://twitter.com/BuzzFeedKawaii
 6,994984072647593984,鈴木勝☪️にじさんじ,https://twitter.com/Darkness_Eater
-6,997758565375918080,さるえる🐧,https://twitter.com/sarrouel_intera
-6,999942020238995456,花畑チャイカ🌵we are にじさんじ!!,https://twitter.com/ZulmIhP1nlMOT5y
