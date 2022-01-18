@@ -63,7 +63,7 @@ func (job *Job) GetResult() error {
 
 			var id, name, url, desc string
 			hasID := strings.Contains(string(b), k)
-			hasID = !strings.HasSuffix(k, "03")
+			hasID = !strings.HasSuffix(k, "0")
 
 			r, err := findRecord(k)
 
