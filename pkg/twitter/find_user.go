@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
+	"time"
 )
 
 type (
@@ -14,9 +15,10 @@ type (
 		Data User `json:"data"`
 	}
 	User struct {
-		ID       string `json:"id"`
-		Name     string `json:"name"`
-		Username string `json:"username"`
+		ID          string `json:"id"`
+		Name        string `json:"name"`
+		Username    string `json:"username"`
+		Description string `json:"description"`
 	}
 )
 
@@ -42,7 +44,11 @@ func (t *Twitter) GetUserIDByUsernames(usernames []string) ([]User, error) {
 }
 
 func (t *Twitter) GetUserByID(id string) (User, error) {
-	q := map[string]string{}
+	q := map[string]string{
+		"user.fields": "description",
+	}
+
+	time.Sleep(time.Second * 2)
 
 	r, err := t.call(fmt.Sprintf("2/users/%s", id), q)
 	if err != nil {

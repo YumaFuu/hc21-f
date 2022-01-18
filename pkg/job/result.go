@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	ResultCsvHeader    = []string{"Count", "ID", "Name", "URL"}
+	ResultCsvHeader    = []string{"Count", "ID", "Name", "URL", "Description"}
 	ResultCsvFilePath  = "./data/row_result.csv"
 	MinimunFollowCount = 5
 )
@@ -56,7 +56,7 @@ func (job *Job) GetResult() error {
 				return err
 			}
 
-			var id, name, url string
+			var id, name, url, desc string
 			hasID := strings.Contains(string(b), k)
 			if hasID {
 				fmt.Println(k, "hasID")
@@ -71,6 +71,7 @@ func (job *Job) GetResult() error {
 				id = r[1]
 				name = r[2]
 				url = r[3]
+				desc = r[4]
 			} else {
 				u, err := job.twitter.GetUserByID(k)
 				if err != nil {
@@ -79,6 +80,7 @@ func (job *Job) GetResult() error {
 				id = u.ID
 				name = u.Name
 				url = fmt.Sprintf("https://twitter.com/%s", u.Username)
+				desc = u.Description
 			}
 
 			row := []string{
@@ -86,6 +88,7 @@ func (job *Job) GetResult() error {
 				id,
 				name,
 				url,
+				desc,
 			}
 
 			list = append(list, row)
