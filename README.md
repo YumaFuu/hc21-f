@@ -2,9 +2,9 @@
 
 ## Run Job
 ```bash
-$ go run cmd/job/main.go (members|followers|friends)
+$ go run cmd/job/main.go (members|followers|friends|result)
 ```
 
 ## Result file
 
-[here](https://github.com/YumaFuu/hc21-f/blob/master/data/result.csv)
+[Here](https://github.com/YumaFuu/hc21-f/blob/master/data/result.csv)
