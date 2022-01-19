@@ -60,7 +60,6 @@ func (t *Twitter) GetUserByID(id string) (User, error) {
 	if err != nil {
 		return User{}, err
 	}
-	fmt.Println(r)
 
 	u := UserResponse{}
 	err = json.Unmarshal([]byte(r), &u)

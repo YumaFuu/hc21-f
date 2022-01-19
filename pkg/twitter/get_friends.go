@@ -7,10 +7,14 @@ import (
 )
 
 type (
+	Error struct {
+		Code    int    `json:"code"`
+		Message string `json:"message"`
+	}
 	FriendsResponse struct {
-		IDs    []int         `json:"ids"`
-		Error  string        `json:"error"`
-		Errors []interface{} `json:"errors"`
+		IDs    []int   `json:"ids"`
+		Error  string  `json:"error"`
+		Errors []Error `json:"errors"`
 	}
 )
 
@@ -20,6 +24,7 @@ var (
 )
 
 func (t *Twitter) GetFriends(id string) ([]int, error) {
+	fmt.Println("call twitter api")
 	q := map[string]string{
 		"user_id": id,
 	}
@@ -27,6 +32,7 @@ func (t *Twitter) GetFriends(id string) ([]int, error) {
 	if err != nil {
 		return nil, err
 	}
+	// fmt.Println(r)
 
 	fs := FriendsResponse{}
 	err = json.Unmarshal([]byte(r), &fs)
@@ -40,8 +46,12 @@ func (t *Twitter) GetFriends(id string) ([]int, error) {
 	}
 
 	if len(fs.Errors) != 0 {
-		fmt.Println("RateLimit")
-		return nil, RateLimitError
+		if fs.Errors[0].Code == 88 {
+			fmt.Println("RateLimit")
+			return nil, RateLimitError
+		} else {
+			return nil, nil
+		}
 	}
 
 	return fs.IDs, nil

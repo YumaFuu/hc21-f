@@ -117,7 +117,9 @@ func (job *Job) GetResult() error {
 			}
 		}
 	}
+	fmt.Println("fin")
 	sort.Slice(list, func(i, j int) bool {
+		fmt.Println("sorting")
 		a, _ := strconv.Atoi(list[i][0])
 		b, _ := strconv.Atoi(list[j][0])
 		return a > b

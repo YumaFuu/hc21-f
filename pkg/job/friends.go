@@ -98,8 +98,6 @@ func (job *Job) getFriends(uid string) error {
 		if err != nil {
 			return err
 		}
-
 	}
-
 	return nil
 }
